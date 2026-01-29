@@ -62,6 +62,24 @@ Public release         █░░░░░░░░░  10%
 
 ---
 
+## Co Jarvis teraz wie (stan po 13 dniach)
+
+| Metryka | Wartość |
+|---------|---------|
+| **Zettele (atomowa wiedza)** | 126 notatek, avg confidence 0.72 |
+| **Sesje śledzone** | 32 (100% przetrwanie kompresji) |
+| **Procedury** | 35+ (28 zatwierdzonych) |
+| **Persony AI** | 16 (5 potwierdzonych) |
+| **Trwałe wątki** | 19 (6 strategicznych, 7 operacyjnych, 6 infra) |
+| **Triggery w CLAUDE.md** | 60+ |
+| **Graf wiedzy** | 200+ linków, 12 clusters |
+
+**Jakość wiedzy (self-audit):** 85% zweryfikowane, 12% częściowo, 3% do korekty.
+
+→ [Pełne metryki](resources/metrics.md)
+
+---
+
 ## Na jaką pracę "wynajmujesz" Jarvisa?
 
 ### 1. Pamięta projekty i pomaga je prowadzić
