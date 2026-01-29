@@ -2,6 +2,8 @@
 
 > **"Powiedz Jarvisowi co chcesz. On zrobi resztę."**
 
+**Project started:** 16 January 2026 | [Timeline](docs/timeline.md) | [Metrics](resources/metrics.md)
+
 ---
 
 ## Problem
@@ -128,17 +130,28 @@ Jarvis jest dla ludzi którzy:
 
 Ten projekt dokumentuje wzorce i rozwiązania odkryte podczas budowy Jarvisa:
 
-### Event-Knowledge Architecture (EKA)
-Jak AI może pamiętać z confidence levels, nie literalnie?
+→ [**Methodology Index**](methodology/_index.md) — pełna nawigacja
 
-### Zettelkasten-inspired Knowledge
-Atomowe notatki, powiązania, grafy wiedzy.
+### Core Methodologies
 
-### Pattern Recognition
-Jak Jarvis uczy się Twoich wzorców i adaptuje się?
+| Methodology | Problem | Solution |
+|-------------|---------|----------|
+| [**EKA**](methodology/eka-architecture.md) | AI treats memory as binary | Confidence-weighted knowledge |
+| [**Session Freeze**](methodology/session-freeze.md) | Context lost on compression | Three-layer persistence |
+| [**Living Concept Document**](methodology/living-concept-document.md) | Documentation becomes stale | Self-documenting with §BOOTSTRAP |
+| [**Zettelkasten**](methodology/zettelkasten-approach.md) | RAG loses relationships | Atomic notes with explicit links |
+| [**Pattern System**](methodology/patterns-system.md) | Behaviors implicit | Systematic observation → validation |
+| [**Unified Idea-Project**](methodology/unified-idea-project.md) | One-way idea→project flow | PRINCE2 + IDEO with backflow |
 
-### Lived Experience Research
-Badacz = użytkownik = podmiot. Miesiące użytkowania, nie izolowane eksperymenty.
+### Architectural Patterns
+
+→ [**Architecture Index**](architecture/_index.md)
+
+| Pattern | Description |
+|---------|-------------|
+| [**Permissions Model**](architecture/permissions-model.md) | L0-L3 operators + C0-C3 confidentiality |
+| [**CLAUDE.md Versioning**](architecture/claude-md-versioning.md) | Version control for AI instructions |
+| [**Procedures Registry**](architecture/procedures-registry.md) | Formalized operations with Extraction Mindset |
 
 ---
 
@@ -146,14 +159,34 @@ Badacz = użytkownik = podmiot. Miesiące użytkowania, nie izolowane eksperymen
 
 ```
 jarvis-research-showcase/
-├── methodology/
-│   ├── eka-architecture.md      # Event-Knowledge Architecture
-│   ├── zettelkasten-approach.md # Atomic knowledge management
-│   └── patterns-system.md       # Pattern discovery framework
+├── README.md                          # This file
+│
+├── methodology/                       # HOW to work with AI
+│   ├── _index.md                      # Methodology navigator
+│   ├── eka-architecture.md            # Event-Knowledge Architecture
+│   ├── session-freeze.md              # Conversation persistence
+│   ├── living-concept-document.md     # LCD methodology
+│   ├── zettelkasten-approach.md       # Atomic knowledge
+│   ├── patterns-system.md             # Pattern discovery
+│   └── unified-idea-project.md        # PRINCE2 + IDEO hybrid
+│
+├── architecture/                      # HOW the system is built
+│   ├── _index.md                      # Architecture navigator
+│   ├── permissions-model.md           # L0-L3, C0-C3
+│   ├── claude-md-versioning.md        # AI config versioning
+│   └── procedures-registry.md         # P-XXX-NNN system
+│
 ├── examples/
-│   └── sample-session.md        # Anonymized session example
-└── docs/
-    └── vision.md                # Long-term research vision
+│   └── sample-session.md              # Anonymized session example
+│
+├── docs/
+│   ├── vision.md                      # Long-term research vision
+│   └── timeline.md                    # Project history
+│
+├── resources/
+│   └── metrics.md                     # Quantitative measures
+│
+└── LICENSE                            # CC-BY-4.0
 ```
 
 ---
