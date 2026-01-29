@@ -16,7 +16,7 @@ Masz projekty rozciągnięte na miesiące. Masz konteksty, które trzeba pamięt
 
 ## Co to jest Jarvis?
 
-Jarvis to nie jest asystent. Jarvis to **concierge** — prywatny, zawodowy i naukowy.
+Jarvis to nie jest asystent. Jarvis to **concierge** — prywatny, zawodowy, naukowy i twórczy.
 
 | Tradycyjny AI assistant | Jarvis |
 |-------------------------|--------|
@@ -24,6 +24,39 @@ Jarvis to nie jest asystent. Jarvis to **concierge** — prywatny, zawodowy i na
 | Zapomina po sesji | Pamięta kontekst |
 | Wykonuje polecenia | Rozumie intencje |
 | Tool | Partner |
+
+---
+
+## Status
+
+**Aktywny development.** Jarvis jest używany codziennie w realnej pracy.
+
+### Autonomia
+
+```
+Human-in-the-loop ────────●──────── Human-out-of-loop
+      PHASE 1          PHASE 2          PHASE 3
+    (sugeruje)    (działa w ramach)  (sam decyduje)
+                        ▲
+                    JESTEŚMY TU
+```
+
+### Dojrzałość technologiczna
+
+```
+TRL 5/9 — Component validated in relevant environment
+━━━━━━━━━━━━━━━━░░░░░░░░░░░░░░
+```
+
+### Gotowość do użycia
+
+```
+Personal daily driver  ████████░░  85%
+Team deployment        ██░░░░░░░░  20%
+Public release         █░░░░░░░░░  10%
+```
+
+> **Transparentność:** Jarvis działa dla twórcy codziennie. Dla szerszego użycia — jeszcze nie.
 
 ---
 
@@ -62,6 +95,20 @@ Jarvis myśli razem z Tobą. Łączy punkty. Widzi wzorce. Proponuje — ale nie
 
 Rutyny, formatowanie, szablony, przypomnienia — Jarvis przejmuje to, co zabiera czas, a nie wymaga kreatywności.
 
+### 5. Partner do pracy twórczej
+
+Jarvis to nie tylko organizator — to partner do pracy intelektualnej:
+
+- **Napiszesz z nim książkę** — pamięta postaci, wątki, wcześniejsze rozdziały
+- **Poprowadzisz badania naukowe** — gromadzi źródła, śledzi hipotezy, łączy wnioski
+- **Stworzysz wizję** — dostosujesz go do swojej pracy, wgrasz skille, metodologie
+
+I najważniejsze:
+
+> **Żadna Twoja wiedza już nie zostaje zapomniana.**
+
+Co odkryłeś w styczniu, Jarvis pamięta w lipcu. Co zapisałeś w jednym projekcie, możesz wykorzystać w innym. Twoja praca intelektualna się kumuluje — nie zaczyna od zera.
+
 ---
 
 ## Dla kogo?
@@ -73,6 +120,7 @@ Jarvis jest dla ludzi którzy:
 - Myślą szybciej niż organizują
 - Potrzebują partnera do myślenia, nie tylko narzędzia
 - Chcą mówić co zrobić, a nie jak to zrobić
+- **Tworzą** — piszą, badają, projektują — i potrzebują pamięci większej niż własna
 
 ---
 
@@ -107,14 +155,6 @@ jarvis-research-showcase/
 └── docs/
     └── vision.md                # Long-term research vision
 ```
-
----
-
-## Status
-
-**Aktywny development.** Jarvis jest używany codziennie w realnej pracy.
-
-Obecna faza: Transitioning from Human-in-the-loop to Human-on-the-loop.
 
 ---
 
