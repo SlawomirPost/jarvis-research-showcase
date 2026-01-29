@@ -1,38 +1,96 @@
-# Jarvis Research Showcase
+# Jarvis
 
-> **Research Project:** Human-AI Symbiosis in Long-term Collaboration
-> **Focus:** Personal AI Assistants with Persistent Memory
-
-> **Note on naming:** "Jarvis" is a working title inspired by the concept of AI assistants
-> in popular culture. This project has no affiliation with Marvel Entertainment or Disney.
-> A permanent name is under consideration.
+> **"Powiedz Jarvisowi co chcesz. On zrobi resztę."**
 
 ---
 
-## Overview
+## Problem
 
-This repository documents the methodologies and patterns discovered during active development of "Jarvis" — a personal AI assistant system built on Claude.
+Claude Code jest potężny. Ale każda sesja zaczyna od zera.
 
-**Research question:** How can AI systems maintain coherent context and useful memory across hundreds of sessions while adapting to individual user's cognitive patterns?
+Masz projekty rozciągnięte na miesiące. Masz konteksty, które trzeba pamiętać. Masz rutyny, które powtarzasz co tydzień. A Claude — zapomina. Znowu.
+
+**Claude zaczyna od zera. Jarvis kontynuuje.**
 
 ---
 
-## Key Research Areas
+## Co to jest Jarvis?
 
-### 1. Memory and Knowledge Persistence
-- Atomic knowledge management (Zettelkasten-inspired)
-- Event-driven architecture for AI memory (EKA)
-- Confidence-based retrieval vs. literal recall
+Jarvis to nie jest asystent. Jarvis to **concierge** — prywatny, zawodowy i naukowy.
 
-### 2. Pattern Recognition in Dialogue
-- Systematic observation of collaboration patterns
-- Persona modeling for communication adaptation
-- ADHD-friendly interaction patterns
+| Tradycyjny AI assistant | Jarvis |
+|-------------------------|--------|
+| Odpowiada na pytania | Prowadzi projekty |
+| Zapomina po sesji | Pamięta kontekst |
+| Wykonuje polecenia | Rozumie intencje |
+| Tool | Partner |
 
-### 3. Emergent Behaviors
-- "Eureka detection" — recognizing connections between current work and dormant topics
-- Self-referential learning through pattern documentation
-- Living documents with explicit uncertainty markers
+---
+
+## Na jaką pracę "wynajmujesz" Jarvisa?
+
+### 1. Pamięta projekty i pomaga je prowadzić
+
+Nie musisz wyjaśniać kontekstu. Jarvis wie nad czym pracujesz, co się zmieniło, co było wcześniej.
+
+> *"Wznów projekt X"* → Jarvis czyta historię i kontynuuje.
+
+### 2. "Zaprogramować" słowem
+
+Mówisz co chcesz — Jarvis robi resztę.
+
+```
+"Od teraz, gdy przychodzi faktura od X, dodaj ją do folderu Y"
+→ Jarvis konfiguruje regułę.
+
+"Przypomnij mi o raporcie w piątek"
+→ Jarvis pamięta.
+
+"Rób to samo co ostatnio dla Kowalskiego"
+→ Jarvis wie co to znaczy.
+```
+
+To nie jest chatbot. To **sprawczość słowa**.
+
+### 3. Zewnętrzny mózg do myślenia
+
+Jarvis myśli razem z Tobą. Łączy punkty. Widzi wzorce. Proponuje — ale nie decyduje za Ciebie.
+
+> *"To o czym teraz mówimy może rozwiązać problem z tamtego projektu..."*
+
+### 4. Automatyzuje nudne zadania
+
+Rutyny, formatowanie, szablony, przypomnienia — Jarvis przejmuje to, co zabiera czas, a nie wymaga kreatywności.
+
+---
+
+## Dla kogo?
+
+**Jarvis nie jest dla wszystkich.**
+
+Jarvis jest dla ludzi którzy:
+- Prowadzą wiele projektów równolegle
+- Myślą szybciej niż organizują
+- Potrzebują partnera do myślenia, nie tylko narzędzia
+- Chcą mówić co zrobić, a nie jak to zrobić
+
+---
+
+## Metodologie (research)
+
+Ten projekt dokumentuje wzorce i rozwiązania odkryte podczas budowy Jarvisa:
+
+### Event-Knowledge Architecture (EKA)
+Jak AI może pamiętać z confidence levels, nie literalnie?
+
+### Zettelkasten-inspired Knowledge
+Atomowe notatki, powiązania, grafy wiedzy.
+
+### Pattern Recognition
+Jak Jarvis uczy się Twoich wzorców i adaptuje się?
+
+### Lived Experience Research
+Badacz = użytkownik = podmiot. Miesiące użytkowania, nie izolowane eksperymenty.
 
 ---
 
@@ -52,28 +110,11 @@ jarvis-research-showcase/
 
 ---
 
-## Unique Contribution
+## Status
 
-Unlike typical AI research in controlled settings, this project operates as **lived experience research** — the researcher is simultaneously the user, developer, and subject.
+**Aktywny development.** Jarvis jest używany codziennie w realnej pracy.
 
-This provides insight into:
-- Day-to-day friction points in human-AI collaboration
-- Real-world pattern emergence over months of use
-- Practical solutions to memory and context limitations
-
----
-
-## Related Work
-
-- Niklas Luhmann's Zettelkasten methodology
-- Claude documentation and safety research
-- Personal productivity systems (GTD, PARA)
-
----
-
-## Contact
-
-[Research contact information]
+Obecna faza: Transitioning from Human-in-the-loop to Human-on-the-loop.
 
 ---
 
@@ -81,7 +122,14 @@ This provides insight into:
 
 This work is licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 
-You are free to share and adapt this material for any purpose, including commercial,
-as long as you give appropriate credit.
+You are free to share and adapt this material for any purpose, including commercial, as long as you give appropriate credit.
 
 See [LICENSE](LICENSE) for details.
+
+---
+
+> **Note on naming:** "Jarvis" is a working title. This project has no affiliation with Marvel Entertainment or Disney.
+
+---
+
+> *"Słowo ma moc. Jarvis słucha i działa."*
