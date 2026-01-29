@@ -177,7 +177,8 @@ jarvis-research-showcase/
 │   └── procedures-registry.md         # P-XXX-NNN system
 │
 ├── examples/
-│   └── sample-session.md              # Anonymized session example
+│   ├── sample-session.md              # Short example: Research → Documentation
+│   └── session-scientific-audit.md    # Deep case study: 8h session, 3 compressions
 │
 ├── docs/
 │   ├── vision.md                      # Long-term research vision
