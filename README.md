@@ -62,19 +62,20 @@ Public release         █░░░░░░░░░  10%
 
 ---
 
-## Co Jarvis teraz wie (stan po 13 dniach)
+## Co Jarvis teraz wie (stan po 17 dniach)
 
 | Metryka | Wartość |
 |---------|---------|
-| **Zettele (atomowa wiedza)** | 126 notatek, avg confidence 0.72 |
-| **Sesje śledzone** | 32 (100% przetrwanie kompresji) |
-| **Procedury** | 35+ (28 zatwierdzonych) |
-| **Persony AI** | 16 (5 potwierdzonych) |
-| **Trwałe wątki** | 19 (6 strategicznych, 7 operacyjnych, 6 infra) |
-| **Triggery w CLAUDE.md** | 60+ |
-| **Graf wiedzy** | 200+ linków, 12 clusters |
+| **Zettele (atomowa wiedza)** | 173 notatki, avg confidence 0.85 |
+| **Sesje śledzone** | 50+ (100% przetrwanie kompresji) |
+| **Procedury** | 47+ (32 zatwierdzone) |
+| **Persony AI** | 17 (7 potwierdzonych) |
+| **Trwałe wątki** | 25+ (8 strategicznych, 10 operacyjnych, 7 infra) |
+| **Triggery w CLAUDE.md** | 80+ |
+| **Graf wiedzy** | 300+ linków, 15 clusters |
+| **Koncepcje architektoniczne** | 12 (w tym Linguistic OS, Total Memory) |
 
-**Jakość wiedzy (self-audit):** 85% zweryfikowane, 12% częściowo, 3% do korekty.
+**Jakość wiedzy (self-audit):** 88% zweryfikowane, 9% częściowo, 3% do korekty.
 
 → [Pełne metryki](resources/metrics.md)
 
@@ -88,7 +89,7 @@ Nie musisz wyjaśniać kontekstu. Jarvis wie nad czym pracujesz, co się zmieni�
 
 > *"Wznów projekt X"* → Jarvis czyta historię i kontynuuje.
 
-### 2. "Zaprogramować" słowem
+### 2. "Zaprogramować" słowem (Linguistic OS)
 
 Mówisz co chcesz — Jarvis robi resztę.
 
@@ -104,6 +105,8 @@ Mówisz co chcesz — Jarvis robi resztę.
 ```
 
 To nie jest chatbot. To **sprawczość słowa**.
+
+**Linguistic OS** — słowa budują workflow, w tym warunkowe i pętle. Oparty o formalizm werbalny: "powiedz co zrobisz, a jeśli brzmi dobrze — zrób".
 
 ### 3. Zewnętrzny mózg do myślenia
 
@@ -142,6 +145,18 @@ Jarvis jest dla ludzi którzy:
 - Chcą mówić co zrobić, a nie jak to zrobić
 - **Tworzą** — piszą, badają, projektują — i potrzebują pamięci większej niż własna
 
+### Potencjalne grupy docelowe (research)
+
+Badamy, czy mechanizmy Jarvisa mogą wspierać także:
+
+| Grupa | Potrzeba | Jak Jarvis wspiera |
+|-------|----------|-------------------|
+| **Naukowcy** | Śledzenie źródeł, bibliografie | EKA + Living Concept Docs |
+| **Osoby neuroatypowe** | Zewnętrzna pamięć robocza | Session Freeze + "parking dla myśli" |
+| **Seniorzy** | Cierpliwy asystent, powtarzalność | Procedury + context persistence |
+| **Twórcy / Wizjonerzy** | Totalne gromadzenie wiedzy | Total Memory + Zettelkasten |
+| **Non-technical builders** | Budowanie bez programowania | Linguistic OS + sprawczość słowa |
+
 ---
 
 ## Metodologie (research)
@@ -149,6 +164,14 @@ Jarvis jest dla ludzi którzy:
 Ten projekt dokumentuje wzorce i rozwiązania odkryte podczas budowy Jarvisa:
 
 → [**Methodology Index**](methodology/_index.md) — pełna nawigacja
+
+### Foundational Concepts
+
+| Concept | Description |
+|---------|-------------|
+| **Linguistic OS** | Layer -1: Words build workflows. Verbal formalism inspired by Roman law. |
+| **Total Memory** | Linear access to entire conversation history. CHECKPOINT + DELTA model. |
+| **Progressive Enrichment** | Every use of the system improves it. "Walking the map and coloring." |
 
 ### Core Methodologies
 
