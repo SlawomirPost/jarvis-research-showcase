@@ -222,15 +222,52 @@ Jarvis ewoluuje w kierunku systemu rozproszonego:
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
+### Topologia gwiazdy — Jarvis Remote Host
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                              │
+│                    ┌─────────────────┐                      │
+│                    │  JARVIS REMOTE  │                      │
+│                    │      HOST       │                      │
+│                    │    (Docker)     │                      │
+│                    └────────┬────────┘                      │
+│                             │                                │
+│                    ┌────────┴────────┐                      │
+│                    │   MESSAGE HUB   │                      │
+│                    │  + CLOUDFLARE   │                      │
+│                    └────────┬────────┘                      │
+│                             │                                │
+│         ┌───────────────────┼───────────────────┐           │
+│         │           │       │       │           │           │
+│         ▼           ▼       ▼       ▼           ▼           │
+│    ┌────────┐ ┌────────┐ ┌─────┐ ┌─────┐ ┌──────────┐      │
+│    │   PC   │ │Terminal│ │ iOS │ │Andr.│ │ Web App  │      │
+│    │        │ │  CLI   │ │     │ │     │ │          │      │
+│    └────────┘ └────────┘ └─────┘ └─────┘ └──────────┘      │
+│                                                              │
+│    KUBERNETES / DOCKER COMPOSE                               │
+│    (wszystko w kontenerach)                                 │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Architektura:**
+- **Jarvis Remote Host** — hostowany w Docker u nas (centralny węzeł)
+- **Message Hub + Cloudflare** — bezpieczna komunikacja
+- **Terminale** — PC, CLI, iOS, Android, Web App (każdy = interfejs)
+- **Topologia gwiazdy** — wszystkie terminale łączą się do jednego węzła
+- **Kubernetes** — orkiestracja wszystkich kontenerów
+
 ### Kluczowe elementy
 
 | Warstwa | Opis |
 |---------|------|
-| **Jarvis Core** | Claude Code + CLAUDE.md (stan obecny) |
+| **Jarvis Remote Host** | Centralny węzeł w Docker (topologia gwiazdy) |
 | **Message Hub** | NATS/MQTT — pub/sub, event sourcing |
+| **Cloudflare Tunnel** | Bezpieczny dostęp z dowolnego miejsca |
 | **Mobile Agents** | Kontenery Docker ze specjalizowanymi agentami |
 | **Driver Hub** | Uniwersalna brama do urządzeń przez istniejące sterowniki |
-| **Remote Computer** | Zdalne sterowanie przez Cloudflare Tunnel |
+| **Terminale** | PC, CLI, iOS, Android, Web App |
 | **Orchestration** | Kubernetes / Docker Compose |
 
 ### Obsługiwane protokoły (przez sterowniki w Docker)
@@ -287,6 +324,36 @@ Agenci mogą mieć **własne, wyspecjalizowane LLM**:
 | **Interfejsy zewnętrzne** | Agenci jako usługa dla innych | Chatbot dla klienta, API |
 | **Zbieranie danych** | Agenci gromadzą informacje | Monitoring, scraping, agregacja |
 | **Subskrypcja** | Armia agentów zarządzalna | Agent-rola-na-miarę |
+
+### Agenci na każdym etapie projektu
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  CYKL ŻYCIA PROJEKTU                                        │
+│                                                              │
+│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐  ┌───────┐ │
+│  │RESEARCH│→ │ DESIGN │→ │  MVP   │→ │  TEST  │→ │ LAUNCH│ │
+│  └────┬───┘  └────┬───┘  └────┬───┘  └────┬───┘  └───┬───┘ │
+│       │           │           │           │          │      │
+│       ▼           ▼           ▼           ▼          ▼      │
+│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐  ┌───────┐ │
+│  │Wywia-  │  │Ścieżka │  │Prototyp│  │Pre-user│  │ Demo  │ │
+│  │dowcy   │  │klienta │  │builder │  │testerzy│  │agenci │ │
+│  │(armia) │  │mapper  │  │        │  │        │  │       │ │
+│  └────────┘  └────────┘  └────────┘  └────────┘  └───────┘ │
+│                                                              │
+│  Agenci = wywiadowcy na każdym etapie                       │
+│  Zbierają dane, testują założenia, raportują                │
+└─────────────────────────────────────────────────────────────┘
+```
+
+| Etap | Rola agentów | Wartość |
+|------|--------------|---------|
+| **Research** | Armia wywiadowców | Zbieranie danych rynkowych |
+| **Design** | Mapowanie ścieżki klienta | Jak ma wyglądać produkt |
+| **MVP** | Prototyp builders | Szybkie testowanie założeń |
+| **Test** | Pre-user testerzy | Walidacja przed użytkownikami |
+| **Launch** | Demo agenci | Prezentacja, onboarding |
 
 ### Model subskrypcyjny (wizja)
 
