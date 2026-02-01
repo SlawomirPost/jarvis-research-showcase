@@ -20,7 +20,7 @@ You have projects spanning months. You have contexts that need to be remembered.
 
 ## What is Jarvis?
 
-Jarvis is not an assistant. Jarvis is a **concierge** — private, professional, scientific, and creative.
+Jarvis is not an assistant. Jarvis is a **concierge** — private, professional, project, scientific, and creative.
 
 | Traditional AI Assistant | Jarvis |
 |--------------------------|--------|
@@ -154,11 +154,13 @@ We're exploring whether Jarvis mechanisms can also support:
 
 | Group | Need | How Jarvis Helps |
 |-------|------|------------------|
-| **Scientists** | Source tracking, bibliographies | EKA + Living Concept Docs |
 | **Neurodiverse people** | External working memory | Total Memory + "thought parking" |
-| **Seniors** | Patient assistant, repeatability | Procedures + context persistence |
+| **Designers & Scientists** | Source tracking, bibliographies | EKA + Living Concept Docs |
 | **Creators / Visionaries** | Total knowledge accumulation | Total Memory + Zettelkasten |
+| **Seniors** | Patient assistant, repeatability | Procedures + context persistence |
 | **Non-technical builders** | Building without coding | Linguistic OS + word agency |
+
+> **Living Lab:** The founder is neurodiverse (ADHD) and uses Jarvis daily — providing first-person validation of cognitive support mechanisms.
 
 ---
 

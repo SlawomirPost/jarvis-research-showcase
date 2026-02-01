@@ -18,7 +18,7 @@ Masz projekty rozciągnięte na miesiące. Masz konteksty, które trzeba pamięt
 
 ## Co to jest Jarvis?
 
-Jarvis to nie jest asystent. Jarvis to **concierge** — prywatny, zawodowy, naukowy i twórczy.
+Jarvis to nie jest asystent. Jarvis to **concierge** — prywatny, zawodowy, projektowy, naukowy i twórczy.
 
 | Tradycyjny asystent AI | Jarvis |
 |------------------------|--------|
@@ -152,11 +152,13 @@ Badamy, czy mechanizmy Jarvisa mogą wspierać także:
 
 | Grupa | Potrzeba | Jak Jarvis wspiera |
 |-------|----------|-------------------|
-| **Naukowcy** | Śledzenie źródeł, bibliografie | EKA + Living Concept Docs |
 | **Osoby neuroatypowe** | Zewnętrzna pamięć robocza | Total Memory + „parking dla myśli" |
-| **Seniorzy** | Cierpliwy asystent, powtarzalność | Procedury + trwałość kontekstu |
+| **Projektanci i naukowcy** | Śledzenie źródeł, bibliografie | EKA + Living Concept Docs |
 | **Twórcy / Wizjonerzy** | Totalne gromadzenie wiedzy | Total Memory + Zettelkasten |
+| **Seniorzy** | Cierpliwy asystent, powtarzalność | Procedury + trwałość kontekstu |
 | **Non-technical builders** | Budowanie bez programowania | Linguistic OS + sprawczość słowa |
+
+> **Living Lab:** Twórca jest neuroatypowy (ADHD) i używa Jarvisa codziennie — dając pierwszoosobową walidację mechanizmów wsparcia poznawczego.
 
 ---
 

@@ -49,6 +49,19 @@ Message: feat: inicjalizacja projektu _jarvis
 
 **Key achievement:** Core methodologies formalized and documented.
 
+### Week 3 (30 Jan - 1 Feb): Grant Applications & Showcase
+
+| Date | Milestone |
+|------|-----------|
+| 30 Jan | Total Memory validation (100% session survival) |
+| 31 Jan | Meta-dispatcher architecture (Linguistic OS Layer -1) |
+| 31 Jan | CLAUDE.md v4.8 — operational triggers formalized |
+| 1 Feb | Session 032: I6-rekonesans — Anthropic grant strategy |
+| 1 Feb | External Researcher Access ($1K) application submitted |
+| 1 Feb | AI for Science ($15K) application submitted |
+
+**Key achievement:** Research formalized, grant applications submitted to Anthropic.
+
 ---
 
 ## Metrics Over Time
@@ -60,7 +73,8 @@ Message: feat: inicjalizacja projektu _jarvis
 | 16 Jan | 0 | 0 | 0 |
 | 22 Jan | 50 | 5 | 17 |
 | 26 Jan | 90 | 20 | 29 |
-| 29 Jan | **126** | **35+** | **32** |
+| 29 Jan | 126 | 35+ | 31 |
+| 1 Feb | **173** | **47+** | **32** |
 
 ### System Maturity
 
@@ -125,7 +139,7 @@ Current: Production daily use, preparing for sharing
 
 ## Project Age
 
-As of **29 January 2026**: **13 days** since first commit
+As of **1 February 2026**: **17 days** since first commit
 
 ---
 
