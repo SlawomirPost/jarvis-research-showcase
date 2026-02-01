@@ -298,6 +298,68 @@ Nici łączą się w graf wiedzy:
 
 ---
 
+## Greenfield Advantage (brak bagażu)
+
+> **Zaczynamy od zera — możemy użyć najnowszego.**
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                          │
+│  TRADYCYJNY PROJEKT              vs              JARVIS (GREENFIELD)    │
+│  ───────────────────                              ──────────────────    │
+│                                                                          │
+│  ┌─────────────────┐              ┌─────────────────┐                   │
+│  │ Legacy code     │              │ Czysta karta    │                   │
+│  │ Stare zależności│              │ Najnowsze LLM   │                   │
+│  │ Dług techniczny │              │ MCP standard    │                   │
+│  │ Migracje        │              │ Docker/K8s      │                   │
+│  └─────────────────┘              └─────────────────┘                   │
+│         ↓                                  ↓                            │
+│  Każda zmiana = ryzyko           Każda zmiana = okazja                 │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Efekt kuli śnieżnej
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                          │
+│  WŁASNA PRACA              +              TRENDY GLOBALNE               │
+│  ───────────                              ───────────────               │
+│                                                                          │
+│  • Procedury               +              • LLM coraz lepsze            │
+│  • Zettele                 +              • MCP standard rośnie         │
+│  • Persony                 +              • Tool use dojrzewa           │
+│  • Rutyny                  +              • Autonomia agentów           │
+│         ↓                                          ↓                    │
+│         └──────────────────┬───────────────────────┘                    │
+│                            │                                             │
+│                            ▼                                             │
+│                 ╔═══════════════════════╗                               │
+│                 ║  WZMOCNIENIE WZAJEMNE ║                               │
+│                 ║     (1 + 1 = 3)       ║                               │
+│                 ╚═══════════════════════╝                               │
+│                            │                                             │
+│                            ▼                                             │
+│              • System sam się buduje                                    │
+│              • Koszty spadają (tańsze LLM)                              │
+│              • Wartość rośnie (więcej możliwości)                       │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**Dlaczego to działa:**
+
+| Czynnik | Efekt |
+|---------|-------|
+| **Brak legacy** | Możemy adoptować najnowsze rozwiązania natychmiast |
+| **Trendy sprzyjają** | LLM, MCP, agenty — wszystko idzie w naszą stronę |
+| **Własna praca się kumuluje** | Każda procedura, zettel, persona = trwały zasób |
+| **Zewnętrzne postępy = darmowy upgrade** | Lepszy Claude = lepszy Jarvis (zero pracy) |
+
+---
+
 ## Architektura docelowa (wizja)
 
 Jarvis ewoluuje w kierunku systemu rozproszonego:
@@ -396,6 +458,42 @@ Jarvis ewoluuje w kierunku systemu rozproszonego:
 | **Driver Hub** | Uniwersalna brama do urządzeń przez istniejące sterowniki |
 | **Terminale** | PC, CLI, iOS, Android, Web App |
 | **Orchestration** | Kubernetes / Docker Compose |
+| **PostgreSQL + pgvector** | Semantic search, embeddings, graf wiedzy |
+
+### Baza wiedzy — PostgreSQL + pgvector
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  POSTGRESQL + PGVECTOR                                       │
+│                                                              │
+│  ┌─────────────────────────────────────────────────────────┐│
+│  │  TEKST                    EMBEDDING                      ││
+│  │  ─────                    ─────────                      ││
+│  │  "Jarvis to concierge"  → [0.23, -0.45, 0.12, ...]      ││
+│  │  "Total Memory model"   → [0.56, 0.11, -0.33, ...]      ││
+│  │  "Linguistic OS"        → [0.78, -0.22, 0.44, ...]      ││
+│  └─────────────────────────────────────────────────────────┘│
+│                              │                               │
+│                              ▼                               │
+│  ┌─────────────────────────────────────────────────────────┐│
+│  │  SEMANTIC SEARCH                                         ││
+│  │                                                          ││
+│  │  Query: "jak działa pamięć?"                            ││
+│  │         ↓                                                ││
+│  │  Wynik: "Total Memory model" (cosine similarity: 0.89)  ││
+│  │         "Nici Wiedzy" (cosine similarity: 0.82)         ││
+│  │         ...                                              ││
+│  └─────────────────────────────────────────────────────────┘│
+│                                                              │
+│  Nie szukamy słów — szukamy ZNACZENIA                       │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Możliwości:**
+- **pgvector** — przechowywanie embeddings (1536+ wymiarów)
+- **Semantic search** — "znajdź podobne" zamiast "znajdź dokładne"
+- **Graf wiedzy** — relacje między zettlami, niciami, projektami
+- **RAG ready** — podstawa dla Retrieval Augmented Generation
 
 ### Obsługiwane protokoły (przez sterowniki w Docker)
 
