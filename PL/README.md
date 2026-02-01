@@ -169,6 +169,31 @@ Trzy filary na których stoi Jarvis:
 | **Totalna Pamięć** | Liniowy dostęp do całej historii konwersacji. Model CHECKPOINT + DELTA. |
 | **Progresywne Wzbogacanie** | Każde użycie systemu go ulepsza. „Chodzenie po mapie i kolorowanie." |
 
+### Linguistic OS — jak działa
+
+```
+┌───────────────────────────────────────────────────────────────────────┐
+│                         LINGUISTIC OS                                  │
+│                     (Warstwa -1: Sprawczość Słowa)                    │
+│                                                                        │
+│                                                                        │
+│   UŻYTKOWNIK ──► NORMALIZUJ ──► WORKFLOW ──► NATURALIZUJ ──► UŻYTKOWNIK│
+│   (dowolny       (wykryj        (słowa       (wynik         (dowolny  │
+│    język)        intencję)      budują       z powrotem      język)   │
+│                                 logikę)      do człowieka)            │
+│                                                                        │
+│   ┌─────────────────────────────────────────────────────────────────┐ │
+│   │  „Od teraz, gdy przychodzi faktura od X, dodaj ją do folderu Y" │ │
+│   │                           ↓                                      │ │
+│   │  JEŚLI (zdarzenie X) TO wykonaj(Y)                              │ │
+│   └─────────────────────────────────────────────────────────────────┘ │
+│                                                                        │
+│   ZASADA: Formalizm werbalny (inspiracja prawem rzymskim)             │
+│   „Powiedz co zrobisz — jeśli brzmi dobrze, zrób."                    │
+│                                                                        │
+└───────────────────────────────────────────────────────────────────────┘
+```
+
 ---
 
 ## Nici Wiedzy (Knowledge Threads)
