@@ -83,6 +83,27 @@ Public release        █░░░░░░░░░  10%
 
 → [Full metrics](resources/metrics.md)
 
+### Knowledge Graph Visualization
+
+Every note, session, and procedure is interconnected. This is the real knowledge structure, visualized in Obsidian:
+
+<p align="center">
+  <img src="resources/images/knowledge-graph-dark.png" alt="Knowledge Graph - Dark Theme" width="800"/>
+</p>
+
+<details>
+<summary>📊 More views (click to expand)</summary>
+
+**Full graph — showing scale:**
+![Knowledge Graph Full](resources/images/knowledge-graph-full.png)
+
+**With labels — real content visible:**
+![Knowledge Graph Labels](resources/images/knowledge-graph-labels.png)
+
+</details>
+
+> Each node is a real document. Each connection is a real reference. Built organically over 17 days.
+
 ---
 
 ## What Job Do You "Hire" Jarvis For?

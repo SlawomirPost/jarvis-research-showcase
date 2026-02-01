@@ -81,6 +81,27 @@ Publiczne wydanie     █░░░░░░░░░  10%
 
 → [Pełne metryki](../resources/metrics.md)
 
+### Graf Wiedzy
+
+Każda notatka, sesja i procedura jest połączona. To rzeczywista struktura wiedzy, zwizualizowana w Obsidian:
+
+<p align="center">
+  <img src="../resources/images/knowledge-graph-dark.png" alt="Graf Wiedzy - Ciemny Motyw" width="800"/>
+</p>
+
+<details>
+<summary>📊 Więcej widoków (kliknij aby rozwinąć)</summary>
+
+**Pełny graf — pokazuje skalę:**
+![Graf Wiedzy Pełny](../resources/images/knowledge-graph-full.png)
+
+**Z etykietami — widoczna prawdziwa treść:**
+![Graf Wiedzy Etykiety](../resources/images/knowledge-graph-labels.png)
+
+</details>
+
+> Każdy węzeł to prawdziwy dokument. Każde połączenie to prawdziwa referencja. Zbudowane organicznie przez 17 dni.
+
 ---
 
 ## Na jaką pracę „wynajmujesz" Jarvisa?
