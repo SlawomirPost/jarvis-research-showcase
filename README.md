@@ -6,6 +6,8 @@
 
 **Project start:** January 16, 2026 | [Timeline](docs/timeline.md) | [Metrics](resources/metrics.md) | [📋 Roadmap](https://github.com/users/SlawomirPost/projects/5) | [→ Knowledge Threads](#knowledge-threads) | [→ Architecture Vision](#target-architecture-vision)
 
+> **Roadmap tip:** In Timeline view, click *"Date fields"* button → select *Started* and *Completed* to see task dates.
+
 ---
 
 ## Problem

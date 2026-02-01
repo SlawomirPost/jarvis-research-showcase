@@ -4,6 +4,8 @@
 
 **Start projektu:** 16 stycznia 2026 | [Oś czasu](../docs/timeline.md) | [Metryki](../resources/metrics.md) | [📋 Roadmapa](https://github.com/users/SlawomirPost/projects/5) | [→ Nici Wiedzy](#nici-wiedzy-knowledge-threads) | [→ Wizja architektury](#architektura-docelowa-wizja)
 
+> **Tip do Roadmapy:** W widoku Timeline kliknij *"Date fields"* → wybierz *Started* i *Completed* aby zobaczyć daty zadań.
+
 ---
 
 ## Problem
