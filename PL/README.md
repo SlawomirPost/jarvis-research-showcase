@@ -74,7 +74,7 @@ Publiczne wydanie     █░░░░░░░░░  10%
 | **Triggery w CLAUDE.md** | 80+ |
 | **Graf wiedzy** | 300+ linków, 15 clusters |
 | **Koncepcje architektoniczne** | 12 (w tym Linguistic OS, Total Memory) |
-| **Tokeny zużyte (Claude Code)** | 3,8 mld (92,6% z cache → 81,5% oszczędności) |
+| **Tokeny zużyte (Claude Code)** | 3,8 mld (92,6% efektywność cache) |
 
 **Jakość wiedzy (self-audit):** 88% zweryfikowane, 9% częściowo, 3% do korekty.
 
