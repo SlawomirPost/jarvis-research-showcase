@@ -1,5 +1,7 @@
 # Jarvis
 
+🇵🇱 [Polska wersja](PL/README.md)
+
 > **"Tell Jarvis what you want. He'll do the rest."**
 
 **Project start:** January 16, 2026 | [Timeline](docs/timeline.md) | [Metrics](resources/metrics.md) | [→ Knowledge Threads](#knowledge-threads) | [→ Architecture Vision](#target-architecture-vision)
