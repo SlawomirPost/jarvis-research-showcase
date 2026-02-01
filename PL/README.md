@@ -2,7 +2,7 @@
 
 > **„Powiedz Jarvisowi co chcesz. On zrobi resztę."**
 
-**Start projektu:** 16 stycznia 2026 | [Oś czasu](../docs/timeline.md) | [Metryki](../resources/metrics.md) | [→ Wizja architektury](#architektura-docelowa-wizja)
+**Start projektu:** 16 stycznia 2026 | [Oś czasu](../docs/timeline.md) | [Metryki](../resources/metrics.md) | [→ Nici Wiedzy](#nici-wiedzy-knowledge-threads) | [→ Wizja architektury](#architektura-docelowa-wizja)
 
 ---
 
@@ -168,6 +168,133 @@ Trzy filary na których stoi Jarvis:
 | **Linguistic OS** | Warstwa -1: Słowa budują workflow. Formalizm werbalny inspirowany prawem rzymskim. |
 | **Totalna Pamięć** | Liniowy dostęp do całej historii konwersacji. Model CHECKPOINT + DELTA. |
 | **Progresywne Wzbogacanie** | Każde użycie systemu go ulepsza. „Chodzenie po mapie i kolorowanie." |
+
+---
+
+## Nici Wiedzy (Knowledge Threads)
+
+> **Każda sesja to nić — zastygły proces myślowy, który można odpytać w dowolnym momencie.**
+
+### Czym są Nici Wiedzy?
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                          │
+│  NIĆ = ZASTYGŁY PROCES MYŚLOWY                                          │
+│                                                                          │
+│  ────●────●────●────●────●────●────●────●────●────●────►  czas          │
+│      │    │    │    │    │    │    │    │    │    │                     │
+│      ▼    ▼    ▼    ▼    ▼    ▼    ▼    ▼    ▼    ▼                     │
+│    pomysł  →  dyskusja  →  decyzja  →  implementacja  →  refleksja     │
+│                                                                          │
+│  Każdy punkt = moment w procesie twórczym                               │
+│  Cała nić = pełny kontekst LLM który coś stworzył                       │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Odpytywanie Nici
+
+Dzięki **Totalnej Pamięci** mamy pewność, że każda nić jest kompletna. Możemy wejść w dowolny punkt i zapytać:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                          │
+│  USER: „Jak doszliśmy do decyzji X w projekcie Y?"                      │
+│              │                                                           │
+│              ▼                                                           │
+│  ┌─────────────────────────────────────────────────────────────────┐    │
+│  │  JARVIS szuka w Niciach:                                         │    │
+│  │                                                                  │    │
+│  │  NIĆ: projekt-Y                                                  │    │
+│  │  ────●────●────●────●────●────●────►                            │    │
+│  │            ▲                                                     │    │
+│  │            │                                                     │    │
+│  │      [PUNKT WEJŚCIA]                                            │    │
+│  │      „Tu była dyskusja o X"                                     │    │
+│  │                                                                  │    │
+│  └─────────────────────────────────────────────────────────────────┘    │
+│              │                                                           │
+│              ▼                                                           │
+│  JARVIS: „W sesji 2026-01-15 rozważaliśmy A, B, C.                     │
+│           Wybraliśmy X bo [kontekst z nici]..."                         │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Modelowanie procesu twórczego
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                          │
+│  WŁASNA GŁOWA              vs              NICI WIEDZY                  │
+│  ────────────                              ────────────                  │
+│                                                                          │
+│  „Jak to zbudowałem?"      →      „Odpytaj nić projektu X"              │
+│  „Dlaczego tak zdecydowałem?"  →  „Znajdź punkt decyzji w nici"         │
+│  „Co wtedy myślałem?"      →      „Odtwórz kontekst z momentu T"        │
+│                                                                          │
+│  ┌─────────────────┐              ┌─────────────────┐                   │
+│  │ Pamięć ludzka:  │              │ Nici Wiedzy:    │                   │
+│  │ • ulotna        │              │ • trwałe        │                   │
+│  │ • fragmenty     │              │ • kompletne     │                   │
+│  │ • zniekształca  │              │ • dokładne      │                   │
+│  └─────────────────┘              └─────────────────┘                   │
+│                                                                          │
+│  EFEKT: Zewnętrzna pamięć procesu — nie tylko wyniku, ale JAK          │
+│         do niego doszliśmy.                                             │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Graf Nici
+
+Nici łączą się w graf wiedzy:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                          │
+│                         GRAF NICI WIEDZY                                 │
+│                                                                          │
+│            ┌─────────────────────────────────┐                          │
+│            │      NIĆ: jarvis-core           │                          │
+│            │  ────●────●────●────●────►      │                          │
+│            └──────────────┬──────────────────┘                          │
+│                           │                                              │
+│              ┌────────────┼────────────┐                                │
+│              │            │            │                                 │
+│              ▼            ▼            ▼                                 │
+│  ┌───────────────┐ ┌───────────────┐ ┌───────────────┐                  │
+│  │NIĆ: session-  │ │NIĆ: linguistic│ │NIĆ: total-    │                  │
+│  │    logs       │ │     -os       │ │    memory     │                  │
+│  │ ──●──●──●──►  │ │ ──●──●──●──►  │ │ ──●──●──●──►  │                  │
+│  └───────────────┘ └───────────────┘ └───────────────┘                  │
+│         │                 │                 │                            │
+│         └─────────────────┴─────────────────┘                           │
+│                           │                                              │
+│                           ▼                                              │
+│                  ┌─────────────────┐                                    │
+│                  │  NIĆ: showcase  │                                    │
+│                  │ ──●──●──●──●──► │                                    │
+│                  └─────────────────┘                                    │
+│                                                                          │
+│  Każda nić = osobny wątek z pełnym kontekstem                           │
+│  Linki między nićmi = powiązania semantyczne                            │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Dlaczego to działa?
+
+| Tradycyjne | Nici Wiedzy |
+|------------|-------------|
+| Zapisujesz **wynik** | Zapisujesz **proces** |
+| Gubisz kontekst decyzji | Zachowujesz pełny kontekst |
+| "Nie pamiętam dlaczego" | "Odpytaj nić z tamtego dnia" |
+| Rekonstruujesz z fragmentów | Odtwarzasz dokładnie |
+
+**Totalna Pamięć** = pewność, że każda nić jest kompletna
+**Nici Wiedzy** = możliwość odpytania dowolnego punktu procesu
 
 ---
 
