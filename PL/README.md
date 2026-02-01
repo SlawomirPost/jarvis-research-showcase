@@ -2,7 +2,7 @@
 
 > **„Powiedz Jarvisowi co chcesz. On zrobi resztę."**
 
-**Start projektu:** 16 stycznia 2026 | [Oś czasu](../docs/timeline.md) | [Metryki](../resources/metrics.md) | [→ Nici Wiedzy](#nici-wiedzy-knowledge-threads) | [→ Wizja architektury](#architektura-docelowa-wizja)
+**Start projektu:** 16 stycznia 2026 | [Oś czasu](../docs/timeline.md) | [Metryki](../resources/metrics.md) | [📋 Roadmapa](https://github.com/users/SlawomirPost/projects/5) | [→ Nici Wiedzy](#nici-wiedzy-knowledge-threads) | [→ Wizja architektury](#architektura-docelowa-wizja)
 
 ---
 

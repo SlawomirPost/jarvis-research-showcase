@@ -4,7 +4,7 @@
 
 > **"Tell Jarvis what you want. He'll do the rest."**
 
-**Project start:** January 16, 2026 | [Timeline](docs/timeline.md) | [Metrics](resources/metrics.md) | [→ Knowledge Threads](#knowledge-threads) | [→ Architecture Vision](#target-architecture-vision)
+**Project start:** January 16, 2026 | [Timeline](docs/timeline.md) | [Metrics](resources/metrics.md) | [📋 Roadmap](https://github.com/users/SlawomirPost/projects/5) | [→ Knowledge Threads](#knowledge-threads) | [→ Architecture Vision](#target-architecture-vision)
 
 ---
 
