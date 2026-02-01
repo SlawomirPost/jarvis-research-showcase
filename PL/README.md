@@ -711,22 +711,22 @@ Jarvis może **programować własne zasoby**, w tym LLM w agentach:
 ### Automatyczne wyłapywanie myśli
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                                                              │
-│  USER: „Ej, wiesz co, może by tak..."                       │
-│         (5 sekund i by uciekło)                             │
-│              │                                               │
-│              ▼                                               │
-│  JARVIS: Wykryto potencjalny pomysł                         │
-│         → Zapisuję do DISCUSSION_QUEUE                      │
-│         → Linkuję do aktualnego projektu                    │
-│         → Oznaczam kontekst                                 │
-│              │                                               │
-│              ▼                                               │
-│  „Zanotowałem. Wrócimy do tego?"                            │
-│                                                              │
-│  EFEKT: Nic nie ginie. Myśl jest w systemie.                │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│                                                           │
+│  USER: „Ej, wiesz co, może by tak..."                     │
+│        (5 sekund i by uciekło)                            │
+│                        │                                  │
+│                        ▼                                  │
+│  JARVIS: Wykryto potencjalny pomysł                       │
+│          → Zapisuję do DISCUSSION_QUEUE                   │
+│          → Linkuję do aktualnego projektu                 │
+│          → Oznaczam kontekst                              │
+│                        │                                  │
+│                        ▼                                  │
+│  „Zanotowałem. Wrócimy do tego?"                          │
+│                                                           │
+│  EFEKT: Nic nie ginie. Myśl jest w systemie.              │
+└───────────────────────────────────────────────────────────┘
 ```
 
 **JARVIS-AGENT w roli asystenta biznesowego:**

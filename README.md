@@ -176,24 +176,24 @@ Three pillars on which Jarvis stands:
 
 ```
 ┌───────────────────────────────────────────────────────────────────────┐
-│                         LINGUISTIC OS                                  │
+│                         LINGUISTIC OS                                 │
 │                     (Layer -1: Word Agency)                           │
-│                                                                        │
-│                                                                        │
+│                                                                       │
+│                                                                       │
 │   USER ────────► NORMALIZE ──► WORKFLOW ──► NATURALIZE ──► USER       │
 │   (any            (detect       (words       (result        (any      │
 │    language)      intent)       build        back to        language) │
 │                                 logic)       human)                   │
-│                                                                        │
+│                                                                       │
 │   ┌─────────────────────────────────────────────────────────────────┐ │
 │   │  "From now on, when an invoice comes from X, add it to folder Y"│ │
-│   │                           ↓                                      │ │
+│   │                           ↓                                     │ │
 │   │  IF (event X) THEN action(Y)                                    │ │
 │   └─────────────────────────────────────────────────────────────────┘ │
-│                                                                        │
+│                                                                       │
 │   PRINCIPLE: Verbal formalism (Roman Law inspiration)                 │
 │   "Say what you'll do — if it sounds right, do it."                   │
-│                                                                        │
+│                                                                       │
 └───────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -207,17 +207,17 @@ Three pillars on which Jarvis stands:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
+│                                                                         │
 │  THREAD = FROZEN THOUGHT PROCESS                                        │
-│                                                                          │
+│                                                                         │
 │  ────●────●────●────●────●────●────●────●────●────●────►  time          │
 │      │    │    │    │    │    │    │    │    │    │                     │
 │      ▼    ▼    ▼    ▼    ▼    ▼    ▼    ▼    ▼    ▼                     │
-│    idea  →  discussion  →  decision  →  implementation  →  reflection  │
-│                                                                          │
+│    idea  →  discussion  →  decision  →  implementation  →  reflection   │
+│                                                                         │
 │  Each point = moment in creative process                                │
 │  Entire thread = full LLM context that created something                │
-│                                                                          │
+│                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -227,26 +227,26 @@ Thanks to **Total Memory** we're certain every thread is complete. We can enter 
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
+│                                                                         │
 │  USER: "How did we reach decision X in project Y?"                      │
-│              │                                                           │
-│              ▼                                                           │
+│              │                                                          │
+│              ▼                                                          │
 │  ┌─────────────────────────────────────────────────────────────────┐    │
-│  │  JARVIS searches Threads:                                        │    │
-│  │                                                                  │    │
-│  │  THREAD: project-Y                                               │    │
+│  │  JARVIS searches Threads:                                       │    │
+│  │                                                                 │    │
+│  │  THREAD: project-Y                                              │    │
 │  │  ────●────●────●────●────●────●────►                            │    │
-│  │            ▲                                                     │    │
-│  │            │                                                     │    │
+│  │            ▲                                                    │    │
+│  │            │                                                    │    │
 │  │      [ENTRY POINT]                                              │    │
 │  │      "Here was the discussion about X"                          │    │
-│  │                                                                  │    │
+│  │                                                                 │    │
 │  └─────────────────────────────────────────────────────────────────┘    │
-│              │                                                           │
-│              ▼                                                           │
+│              │                                                          │
+│              ▼                                                          │
 │  JARVIS: "In session 2026-01-15 we considered A, B, C.                  │
 │           We chose X because [context from thread]..."                  │
-│                                                                          │
+│                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -254,14 +254,14 @@ Thanks to **Total Memory** we're certain every thread is complete. We can enter 
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
+│                                                                         │
 │  YOUR OWN HEAD              vs              KNOWLEDGE THREADS           │
 │  ─────────────                              ─────────────────           │
-│                                                                          │
+│                                                                         │
 │  "How did I build this?"      →      "Query the project X thread"       │
 │  "Why did I decide that?"     →      "Find decision point in thread"    │
 │  "What was I thinking then?"  →      "Restore context from moment T"    │
-│                                                                          │
+│                                                                         │
 │  ┌─────────────────┐              ┌─────────────────┐                   │
 │  │ Human memory:   │              │ Knowledge       │                   │
 │  │ • fleeting      │              │ Threads:        │                   │
@@ -269,10 +269,10 @@ Thanks to **Total Memory** we're certain every thread is complete. We can enter 
 │  │ • distorts      │              │ • complete      │                   │
 │  └─────────────────┘              │ • accurate      │                   │
 │                                   └─────────────────┘                   │
-│                                                                          │
+│                                                                         │
 │  EFFECT: External process memory — not just the result, but HOW         │
-│          we got there.                                                   │
-│                                                                          │
+│          we got there.                                                  │
+│                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -282,34 +282,34 @@ Threads connect into a knowledge graph:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
-│                         KNOWLEDGE THREAD GRAPH                           │
-│                                                                          │
+│                                                                         │
+│                         KNOWLEDGE THREAD GRAPH                          │
+│                                                                         │
 │            ┌─────────────────────────────┐                              │
 │            │      THREAD: jarvis-core    │                              │
 │            │  ────●────●────●────●────►  │                              │
 │            └──────────────┬──────────────┘                              │
-│                           │                                              │
+│                           │                                             │
 │              ┌────────────┼────────────┐                                │
-│              │            │            │                                 │
-│              ▼            ▼            ▼                                 │
+│              │            │            │                                │
+│              ▼            ▼            ▼                                │
 │  ┌───────────────┐ ┌───────────────┐ ┌───────────────┐                  │
 │  │THREAD: session│ │THREAD:        │ │THREAD: total- │                  │
 │  │       -logs   │ │ linguistic-os │ │       memory  │                  │
 │  │ ──●──●──●──►  │ │ ──●──●──●──►  │ │ ──●──●──●──►  │                  │
 │  └───────────────┘ └───────────────┘ └───────────────┘                  │
-│         │                 │                 │                            │
+│         │                 │                 │                           │
 │         └─────────────────┴─────────────────┘                           │
-│                           │                                              │
-│                           ▼                                              │
+│                           │                                             │
+│                           ▼                                             │
 │                  ┌─────────────────┐                                    │
 │                  │ THREAD: showcase│                                    │
 │                  │ ──●──●──●──●──► │                                    │
 │                  └─────────────────┘                                    │
-│                                                                          │
+│                                                                         │
 │  Each thread = separate topic with full context                         │
 │  Links between threads = semantic relationships                         │
-│                                                                          │
+│                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -333,10 +333,10 @@ Threads connect into a knowledge graph:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
+│                                                                         │
 │  TRADITIONAL PROJECT              vs              JARVIS (GREENFIELD)   │
 │  ───────────────────                              ──────────────────    │
-│                                                                          │
+│                                                                         │
 │  ┌─────────────────┐              ┌─────────────────┐                   │
 │  │ Legacy code     │              │ Clean slate     │                   │
 │  │ Old dependencies│              │ Latest LLMs     │                   │
@@ -345,7 +345,7 @@ Threads connect into a knowledge graph:
 │  └─────────────────┘              └─────────────────┘                   │
 │         ↓                                  ↓                            │
 │  Every change = risk              Every change = opportunity            │
-│                                                                          │
+│                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -353,28 +353,28 @@ Threads connect into a knowledge graph:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                          │
+│                                                                         │
 │  OUR OWN WORK                +              GLOBAL TRENDS               │
 │  ─────────────                              ─────────────               │
-│                                                                          │
+│                                                                         │
 │  • Procedures                +              • LLMs getting better       │
 │  • Zettels                   +              • MCP standard growing      │
 │  • Personas                  +              • Tool use maturing         │
 │  • Routines                  +              • Agent autonomy            │
 │         ↓                                          ↓                    │
 │         └──────────────────┬───────────────────────┘                    │
-│                            │                                             │
-│                            ▼                                             │
+│                            │                                            │
+│                            ▼                                            │
 │                 ╔═══════════════════════╗                               │
 │                 ║  MUTUAL REINFORCEMENT ║                               │
 │                 ║     (1 + 1 = 3)       ║                               │
 │                 ╚═══════════════════════╝                               │
-│                            │                                             │
-│                            ▼                                             │
+│                            │                                            │
+│                            ▼                                            │
 │              • System builds itself                                     │
 │              • Costs drop (cheaper LLMs)                                │
 │              • Value rises (more capabilities)                          │
-│                                                                          │
+│                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -395,35 +395,35 @@ Jarvis evolves toward a distributed system:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                              USER                                        │
+│                              USER                                       │
 │                    "Turn on the light and summarize project"            │
-│                                  │                                       │
-│                                  ▼                                       │
+│                                  │                                      │
+│                                  ▼                                      │
 │  ┌─────────────────────────────────────────────────────────────────┐    │
-│  │                         JARVIS CORE                              │    │
-│  │                                                                  │    │
+│  │                         JARVIS CORE                             │    │
+│  │                                                                 │    │
 │  │   Linguistic OS ──► Total Memory ──► Task Delegation            │    │
-│  │                                                                  │    │
+│  │                                                                 │    │
 │  └──────────────────────────────┬──────────────────────────────────┘    │
-│                                 │                                        │
+│                                 │                                       │
 │                    ┌────────────┴────────────┐                          │
 │                    ▼                         ▼                          │
 │  ┌─────────────────────────┐   ┌─────────────────────────┐              │
 │  │      MESSAGE HUB        │   │    CLOUDFLARE TUNNEL    │              │
 │  │      (NATS/MQTT)        │   │   (secure access)       │              │
 │  └───────────┬─────────────┘   └─────────────────────────┘              │
-│              │                                                           │
+│              │                                                          │
 │   ┌──────────┼──────────┬──────────────┬──────────────┐                 │
 │   ▼          ▼          ▼              ▼              ▼                 │
-│ ┌─────┐  ┌─────┐    ┌─────┐       ┌─────────┐    ┌─────────┐           │
-│ │ LLM │  │Tool │    │ DB  │       │ DRIVER  │    │ Remote  │           │
-│ │Agent│  │Agent│    │Agent│       │  HUB    │    │Computer │           │
-│ └──┬──┘  └──┬──┘    └──┬──┘       └────┬────┘    └────┬────┘           │
+│ ┌─────┐  ┌─────┐    ┌─────┐       ┌─────────┐    ┌─────────┐            │
+│ │ LLM │  │Tool │    │ DB  │       │ DRIVER  │    │ Remote  │            │
+│ │Agent│  │Agent│    │Agent│       │  HUB    │    │Computer │            │
+│ └──┬──┘  └──┬──┘    └──┬──┘       └────┬────┘    └────┬────┘            │
 │    │        │          │               │              │                 │
-│ ┌──┴──┐  ┌──┴──┐    ┌──┴──┐       ┌────┴────┐    ┌────┴────┐           │
-│ │Docker│ │Docker│   │Docker│      │ Docker  │    │Playwright│          │
-│ │ LLM  │ │ git  │   │Postgres│    │ drivers │    │ Browser │           │
-│ └─────┘  └─────┘    └──────┘      └────┬────┘    └─────────┘           │
+│ ┌──┴──┐  ┌──┴──┐    ┌──┴──┐       ┌────┴────┐    ┌────┴────┐            │
+│ │Docker│ │Docker│   │Docker│      │ Docker  │    │Playwright│           │
+│ │ LLM  │ │ git  │   │Postgres│    │ drivers │    │ Browser │            │
+│ └─────┘  └─────┘    └──────┘      └────┬────┘    └─────────┘            │
 │                                        │                                │
 │                    ┌───────────────────┼───────────────────┐            │
 │                    ▼                   ▼                   ▼            │
@@ -432,10 +432,10 @@ Jarvis evolves toward a distributed system:
 │              │  Home    │       │ (Modbus, │        │  (REST,  │        │
 │              │(Hue,Tuya)│       │  OPC-UA) │        │  serial) │        │
 │              └──────────┘       └──────────┘        └──────────┘        │
-│                                                                          │
+│                                                                         │
 │            ═══════════════════════════════════════════                  │
-│                        KUBERNETES / DOCKER COMPOSE                       │
-│                         (orchestration layer)                            │
+│                        KUBERNETES / DOCKER COMPOSE                      │
+│                         (orchestration layer)                           │
 │            ═══════════════════════════════════════════                  │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -444,27 +444,27 @@ Jarvis evolves toward a distributed system:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                                                              │
+│                                                             │
 │                    ┌─────────────────┐                      │
 │                    │  JARVIS REMOTE  │                      │
 │                    │      HOST       │                      │
 │                    │    (Docker)     │                      │
 │                    └────────┬────────┘                      │
-│                             │                                │
+│                             │                               │
 │                    ┌────────┴────────┐                      │
 │                    │   MESSAGE HUB   │                      │
 │                    │  + CLOUDFLARE   │                      │
 │                    └────────┬────────┘                      │
-│                             │                                │
+│                             │                               │
 │         ┌───────────────────┼───────────────────┐           │
 │         │           │       │       │           │           │
 │         ▼           ▼       ▼       ▼           ▼           │
-│    ┌────────┐ ┌────────┐ ┌─────┐ ┌─────┐ ┌──────────┐      │
-│    │   PC   │ │Terminal│ │ iOS │ │Andr.│ │ Web App  │      │
-│    │        │ │  CLI   │ │     │ │     │ │          │      │
-│    └────────┘ └────────┘ └─────┘ └─────┘ └──────────┘      │
-│                                                              │
-│    KUBERNETES / DOCKER COMPOSE                               │
+│    ┌────────┐ ┌────────┐ ┌─────┐ ┌─────┐ ┌──────────┐       │
+│    │   PC   │ │Terminal│ │ iOS │ │Andr.│ │ Web App  │       │
+│    │        │ │  CLI   │ │     │ │     │ │          │       │
+│    └────────┘ └────────┘ └─────┘ └─────┘ └──────────┘       │
+│                                                             │
+│    KUBERNETES / DOCKER COMPOSE                              │
 │    (everything in containers)                               │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -493,27 +493,27 @@ Jarvis evolves toward a distributed system:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  POSTGRESQL + PGVECTOR                                       │
-│                                                              │
+│  POSTGRESQL + PGVECTOR                                      │
+│                                                             │
 │  ┌─────────────────────────────────────────────────────────┐│
-│  │  TEXT                       EMBEDDING                    ││
-│  │  ────                       ─────────                    ││
+│  │  TEXT                       EMBEDDING                   ││
+│  │  ────                       ─────────                   ││
 │  │  "Jarvis is a concierge"  → [0.23, -0.45, 0.12, ...]    ││
 │  │  "Total Memory model"     → [0.56, 0.11, -0.33, ...]    ││
 │  │  "Linguistic OS"          → [0.78, -0.22, 0.44, ...]    ││
 │  └─────────────────────────────────────────────────────────┘│
-│                              │                               │
-│                              ▼                               │
+│                              │                              │
+│                              ▼                              │
 │  ┌─────────────────────────────────────────────────────────┐│
-│  │  SEMANTIC SEARCH                                         ││
-│  │                                                          ││
+│  │  SEMANTIC SEARCH                                        ││
+│  │                                                         ││
 │  │  Query: "how does memory work?"                         ││
-│  │         ↓                                                ││
+│  │         ↓                                               ││
 │  │  Result: "Total Memory model" (cosine similarity: 0.89) ││
 │  │          "Knowledge Threads" (cosine similarity: 0.82)  ││
-│  │          ...                                             ││
+│  │          ...                                            ││
 │  └─────────────────────────────────────────────────────────┘│
-│                                                              │
+│                                                             │
 │  We don't search words — we search MEANING                  │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -555,18 +555,18 @@ Agents can have **their own, specialized LLMs**:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  ORCHESTRATOR                                                │
+│  ORCHESTRATOR                                               │
 │  (manages resource pool)                                    │
-│                                                              │
-│   ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐       │
-│   │ LLM     │  │ LLM     │  │ LLM     │  │ LLM     │       │
-│   │ (chat)  │  │ (code)  │  │ (reason)│  │ (fast)  │       │
-│   └────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘       │
+│                                                             │
+│   ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐        │
+│   │ LLM     │  │ LLM     │  │ LLM     │  │ LLM     │        │
+│   │ (chat)  │  │ (code)  │  │ (reason)│  │ (fast)  │        │
+│   └────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘        │
 │        │            │            │            │             │
 │        └────────────┴────────────┴────────────┘             │
-│                          │                                   │
-│                    RESOURCE POOL                             │
-│              (allocation on demand)                          │
+│                          │                                  │
+│                    RESOURCE POOL                            │
+│              (allocation on demand)                         │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -583,19 +583,19 @@ Agents can have **their own, specialized LLMs**:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  PROJECT LIFECYCLE                                           │
-│                                                              │
-│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐  ┌───────┐ │
-│  │RESEARCH│→ │ DESIGN │→ │  MVP   │→ │  TEST  │→ │ LAUNCH│ │
-│  └────┬───┘  └────┬───┘  └────┬───┘  └────┬───┘  └───┬───┘ │
+│  PROJECT LIFECYCLE                                          │
+│                                                             │
+│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐  ┌───────┐  │
+│  │RESEARCH│→ │ DESIGN │→ │  MVP   │→ │  TEST  │→ │ LAUNCH│  │
+│  └────┬───┘  └────┬───┘  └────┬───┘  └────┬───┘  └───┬───┘  │
 │       │           │           │           │          │      │
 │       ▼           ▼           ▼           ▼          ▼      │
-│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐  ┌───────┐ │
-│  │Recon   │  │Customer│  │Prototype│ │Pre-user│  │ Demo  │ │
-│  │scouts  │  │journey │  │builder │  │testers │  │agents │ │
-│  │(army)  │  │mapper  │  │        │  │        │  │       │ │
-│  └────────┘  └────────┘  └────────┘  └────────┘  └───────┘ │
-│                                                              │
+│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐  ┌───────┐  │
+│  │Recon   │  │Customer│  │Prototype│ │Pre-user│  │ Demo  │  │
+│  │scouts  │  │journey │  │builder │  │testers │  │agents │  │
+│  │(army)  │  │mapper  │  │        │  │        │  │       │  │
+│  └────────┘  └────────┘  └────────┘  └────────┘  └───────┘  │
+│                                                             │
 │  Agents = scouts at every stage                             │
 │  Gathering data, testing assumptions, reporting             │
 └─────────────────────────────────────────────────────────────┘
@@ -613,27 +613,27 @@ Agents can have **their own, specialized LLMs**:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    JARVIS PLATFORM                           │
-│                                                              │
+│                    JARVIS PLATFORM                          │
+│                                                             │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐       │
 │  │    USER      │  │    USER      │  │    USER      │       │
 │  │      A       │  │      B       │  │      C       │       │
 │  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘       │
-│         │                 │                 │                │
-│         ▼                 ▼                 ▼                │
+│         │                 │                 │               │
+│         ▼                 ▼                 ▼               │
 │  ┌──────────────────────────────────────────────────────┐   │
-│  │              ORCHESTRATOR (shared)                    │   │
+│  │              ORCHESTRATOR (shared)                   │   │
 │  └──────────────────────────────────────────────────────┘   │
-│         │                 │                 │                │
-│         ▼                 ▼                 ▼                │
+│         │                 │                 │               │
+│         ▼                 ▼                 ▼               │
 │  ┌────────────┐    ┌────────────┐    ┌────────────┐         │
 │  │ Pool A     │    │ Pool B     │    │ Pool C     │         │
 │  │ • 3 agents │    │ • 10 agents│    │ • 1 agent  │         │
 │  │ • LLM: own │    │ • LLM: mix │    │ • LLM: API │         │
 │  └────────────┘    └────────────┘    └────────────┘         │
-│                                                              │
+│                                                             │
 │  Subscription:  Basic       Pro          Enterprise         │
-│                $10/mo      $50/mo        Custom              │
+│                $10/mo      $50/mo        Custom             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -643,17 +643,17 @@ Jarvis can **program its own resources**, including LLMs in agents:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  JARVIS CORE                                                 │
-│       │                                                      │
-│       ▼                                                      │
+│  JARVIS CORE                                                │
+│       │                                                     │
+│       ▼                                                     │
 │  "I need an agent for invoice analysis"                     │
-│       │                                                      │
+│       │                                                     │
 │       ├──► Creates Docker container                         │
 │       ├──► Selects base LLM (small/local)                   │
 │       ├──► Fine-tunes on invoice examples                   │
 │       ├──► Injects CLAUDE.md with role                      │
 │       └──► Registers in Resource Pool                       │
-│                                                              │
+│                                                             │
 │  RESULT: New agent "jarvis-invoices" ready to work          │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -670,7 +670,7 @@ Jarvis can **program its own resources**, including LLMs in agents:
 ```
 ┌────────────┐         ┌────────────┐
 │  Agent A   │ ──────► │  Agent B   │
-│ (expert)   │ knowledge│ (learner)  │
+│ (expert)   │ knowledge│ (learner) │
 └────────────┘         └────────────┘
       │
       ▼
@@ -685,19 +685,19 @@ Jarvis can **program its own resources**, including LLMs in agents:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  USER works normally                                         │
-│       │                                                      │
-│       ▼                                                      │
+│  USER works normally                                        │
+│       │                                                     │
+│       ▼                                                     │
 │  JARVIS OBSERVES (Total Memory)                             │
-│       │                                                      │
+│       │                                                     │
 │       ├──► How do they formulate problems?                  │
 │       ├──► How do they search for solutions?                │
 │       ├──► What questions do they ask?                      │
 │       ├──► When do they make decisions?                     │
 │       └──► What do they skip/forget?                        │
-│       │                                                      │
-│       ▼                                                      │
-│  COGNITIVE MODEL                                             │
+│       │                                                     │
+│       ▼                                                     │
+│  COGNITIVE MODEL                                            │
 │  "How this person thinks and works"                         │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -714,22 +714,22 @@ Jarvis can **program its own resources**, including LLMs in agents:
 ### Automatic Thought Capture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                                                              │
-│  USER: "Hey, you know what, maybe we could..."              │
-│         (5 seconds and it would be gone)                    │
-│              │                                               │
-│              ▼                                               │
-│  JARVIS: Detected potential idea                            │
-│         → Saving to DISCUSSION_QUEUE                        │
-│         → Linking to current project                        │
-│         → Marking context                                   │
-│              │                                               │
-│              ▼                                               │
-│  "Noted. Want to come back to this?"                        │
-│                                                              │
-│  RESULT: Nothing is lost. Thought is in the system.         │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│                                                           │
+│  USER: "Hey, you know what, maybe we could..."            │
+│        (5 seconds and it would be gone)                   │
+│                        │                                  │
+│                        ▼                                  │
+│  JARVIS: Detected potential idea                          │
+│          → Saving to DISCUSSION_QUEUE                     │
+│          → Linking to current project                     │
+│          → Marking context                                │
+│                        │                                  │
+│                        ▼                                  │
+│  "Noted. Want to come back to this?"                      │
+│                                                           │
+│  RESULT: Nothing is lost. Thought is in the system.       │
+└───────────────────────────────────────────────────────────┘
 ```
 
 **JARVIS-AGENT as business assistant:**
@@ -742,15 +742,15 @@ Jarvis can **program its own resources**, including LLMs in agents:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                                                              │
+│                                                             │
 │   JARVIS-A              JARVIS-B              JARVIS-C      │
 │   (creator)             (company X)           (company Y)   │
 │      │                     │                     │          │
 │      └─────────────────────┼─────────────────────┘          │
-│                            │                                 │
-│                     FEDERATION HUB                           │
+│                            │                                │
+│                     FEDERATION HUB                          │
 │              (pattern exchange, not data)                   │
-│                                                              │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
