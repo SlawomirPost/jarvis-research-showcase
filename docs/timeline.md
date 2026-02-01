@@ -57,8 +57,7 @@ Message: feat: inicjalizacja projektu _jarvis
 | 31 Jan | Meta-dispatcher architecture (Linguistic OS Layer -1) |
 | 31 Jan | CLAUDE.md v4.8 — operational triggers formalized |
 | 1 Feb | Session 032: I6-rekonesans — Anthropic grant strategy |
-| 1 Feb | External Researcher Access ($1K) application submitted |
-| 1 Feb | AI for Science ($15K) application submitted |
+| 1 Feb | Anthropic research grant applications submitted |
 
 **Key achievement:** Research formalized, grant applications submitted to Anthropic.
 

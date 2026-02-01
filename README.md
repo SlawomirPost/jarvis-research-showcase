@@ -64,19 +64,20 @@ Public release        █░░░░░░░░░  10%
 
 ---
 
-## What Jarvis Knows Now (as of 1 February 2026, Day 17)
+## Project Scale
+
+*All metrics as of 1 February 2026 (Day 17)*
 
 | Metric | Value |
 |--------|-------|
-| **Zettels (atomic knowledge)** | 173 notes, avg. confidence 0.85 |
-| **Tracked sessions** | 50+ (100% compression survival) |
-| **Procedures** | 47+ (32 approved) |
-| **AI Personas** | 17 (7 confirmed) |
-| **Persistent threads** | 25+ (8 strategic, 10 operational, 7 infra) |
-| **Triggers in CLAUDE.md** | 80+ |
-| **Knowledge graph** | 300+ links, 15 clusters |
-| **Architectural concepts** | 12 (including Linguistic OS, Total Memory) |
-| **Tokens consumed (Claude Code)** | 3.8 billion (92.6% cache efficiency) |
+| Atomic knowledge (Zettels) | 170+ notes |
+| Tracked sessions | 50+ (100% compression survival) |
+| Procedures | 45+ formalized |
+| AI Personas | 15+ (7 confirmed) |
+| Persistent threads | 25+ |
+| Tokens consumed | 3.8B+ |
+| Cache efficiency | 92%+ |
+| Architectural concepts | 12+ |
 
 **Knowledge quality (self-audit):** 88% verified, 9% partial, 3% needs correction.
 
@@ -157,7 +158,7 @@ We're exploring whether Jarvis mechanisms can also support:
 | **Neurodiverse people** | External working memory | Total Memory + "thought parking" |
 | **Designers & Scientists** | Source tracking, bibliographies | EKA + Living Concept Docs |
 | **Creators / Visionaries** | Total knowledge accumulation | Total Memory + Zettelkasten |
-| **Seniors** | Patient assistant, repeatability | Procedures + context persistence |
+| **Senior companion** | Patient assistant, never frustrated | Procedures + context persistence |
 | **Non-technical builders** | Building without coding | Linguistic OS + word agency |
 
 > **Living Lab:** The founder is neurodiverse (ADHD) and uses Jarvis daily — providing first-person validation of cognitive support mechanisms.

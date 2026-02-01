@@ -62,19 +62,20 @@ Publiczne wydanie     █░░░░░░░░░  10%
 
 ---
 
-## Co Jarvis teraz wie (stan: 1 lutego 2026, dzień 17)
+## Skala projektu
+
+*Wszystkie metryki na dzień 1 lutego 2026 (Dzień 17)*
 
 | Metryka | Wartość |
 |---------|---------|
-| **Zettele (atomowa wiedza)** | 173 notatki, śr. confidence 0.85 |
-| **Sesje śledzone** | 50+ (100% przetrwanie kompresji) |
-| **Procedury** | 47+ (32 zatwierdzone) |
-| **Persony AI** | 17 (7 potwierdzonych) |
-| **Trwałe wątki** | 25+ (8 strategicznych, 10 operacyjnych, 7 infra) |
-| **Triggery w CLAUDE.md** | 80+ |
-| **Graf wiedzy** | 300+ linków, 15 clusters |
-| **Koncepcje architektoniczne** | 12 (w tym Linguistic OS, Total Memory) |
-| **Tokeny zużyte (Claude Code)** | 3,8 mld (92,6% efektywność cache) |
+| Atomowa wiedza (Zettele) | 170+ notatek |
+| Śledzone sesje | 50+ (100% przetrwanie kompresji) |
+| Procedury | 45+ sformalizowanych |
+| Persony AI | 15+ (7 potwierdzonych) |
+| Trwałe wątki | 25+ |
+| Zużyte tokeny | 3,8B+ |
+| Efektywność cache | 92%+ |
+| Koncepcje architektoniczne | 12+ |
 
 **Jakość wiedzy (self-audit):** 88% zweryfikowane, 9% częściowo, 3% do korekty.
 
@@ -155,7 +156,7 @@ Badamy, czy mechanizmy Jarvisa mogą wspierać także:
 | **Osoby neuroatypowe** | Zewnętrzna pamięć robocza | Total Memory + „parking dla myśli" |
 | **Projektanci i naukowcy** | Śledzenie źródeł, bibliografie | EKA + Living Concept Docs |
 | **Twórcy / Wizjonerzy** | Totalne gromadzenie wiedzy | Total Memory + Zettelkasten |
-| **Seniorzy** | Cierpliwy asystent, powtarzalność | Procedury + trwałość kontekstu |
+| **Towarzysz seniora** | Cierpliwy asystent, zawsze chętny | Procedury + trwałość kontekstu |
 | **Non-technical builders** | Budowanie bez programowania | Linguistic OS + sprawczość słowa |
 
 > **Living Lab:** Twórca jest neuroatypowy (ADHD) i używa Jarvisa codziennie — dając pierwszoosobową walidację mechanizmów wsparcia poznawczego.
