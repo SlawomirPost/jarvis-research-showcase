@@ -36,6 +36,14 @@ These methodologies emerged from **daily use of AI assistants** over months of r
 **Problem:** Ideas and projects are disconnected; no backflow from projects
 **Solution:** PRINCE2 Agile + IDEO Design Thinking hybrid with bidirectional flows
 
+### 7. [Context Distribution Layer (CDL)](context-distribution.md)
+**Problem:** Every new agent, session, or deployment starts from zero
+**Solution:** Bootstrap Packages per consumer type with 6-question Minimum Viable Context
+
+### 8. [Beaten Paths System](beaten-paths.md)
+**Problem:** Valuable work patterns are implicit and lost between sessions
+**Solution:** Lifecycle system: SIGNAL → DRAFT → VALIDATED → MATURE for reproducible recipes
+
 ---
 
 ## How They Connect
@@ -73,6 +81,22 @@ User works with AI
 │                                                  │
 │   Ideas ↔ Projects ↔ Knowledge                   │
 │   Gate-based decisions + exception handling      │
+└─────────────────┬───────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────┐
+│    CONTEXT DISTRIBUTION (scaling)                │
+│                                                  │
+│   Bootstrap Packages → per consumer type         │
+│   "Looks Right" consistency via context injection│
+└─────────────────┬───────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────┐
+│    BEATEN PATHS (reproduction)                   │
+│                                                  │
+│   SIGNAL → DRAFT → VALIDATED → MATURE            │
+│   Recipes for repeatable work                    │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -88,4 +112,4 @@ All methodologies are:
 
 ---
 
-> **Next:** Start with [EKA](eka-architecture.md) for the core memory concept, or [Session Freeze](session-freeze.md) for immediate practical value.
+> **Next:** Start with [EKA](eka-architecture.md) for the core memory concept, or [Context Distribution](context-distribution.md) for the scaling strategy.

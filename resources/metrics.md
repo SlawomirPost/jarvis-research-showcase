@@ -2,7 +2,7 @@
 
 > Quantitative measures of the Jarvis research project
 
-**Last updated:** 29 January 2026
+**Last updated:** 4 February 2026
 
 ---
 
@@ -10,12 +10,15 @@
 
 | Metric | Value |
 |--------|-------|
-| **Project age** | 13 days |
-| **Sessions tracked** | 32 |
-| **Knowledge atoms (zettels)** | 126 |
-| **Procedures defined** | 35+ |
-| **CLAUDE.md versions** | 11 |
-| **Persistent threads** | 19 |
+| **Project age** | 20 days |
+| **Sessions tracked** | 55+ |
+| **Knowledge atoms (zettels)** | 206 |
+| **Procedures defined** | 50+ |
+| **CLAUDE.md versions** | 14 |
+| **Persistent threads** | 35 |
+| **Living documents** | 24 |
+| **AI Personas** | 21 |
+| **Beaten paths** | 23+ |
 
 ---
 
@@ -25,27 +28,27 @@
 
 | Metric | Value |
 |--------|-------|
-| Total zettels | 126 |
-| Average confidence | 0.72 |
-| Living documents | 8 |
+| Total zettels | 206 |
+| Average confidence | 0.74 |
+| Living documents | 24 |
 | Deprecated | 3 |
 
 **Confidence distribution:**
 
 ```
-0.9+   ███████░░░░░░░░░░░░░░  15%  High certainty
-0.7-0.9 ████████████░░░░░░░░  40%  Good guess
-0.5-0.7 ██████████░░░░░░░░░░  30%  Hypothesis
-<0.5   ███░░░░░░░░░░░░░░░░░░  15%  Speculation
+0.9+   ████████░░░░░░░░░░░░░  17%  High certainty
+0.7-0.9 █████████████░░░░░░░  42%  Good guess
+0.5-0.7 █████████░░░░░░░░░░░  28%  Hypothesis
+<0.5   ███░░░░░░░░░░░░░░░░░░  13%  Speculation
 ```
 
 ### Knowledge Graph
 
 | Metric | Value |
 |--------|-------|
-| Explicit links | 200+ |
-| Clusters identified | 12 |
-| Orphan zettels | 5 |
+| Explicit links | 400+ |
+| Clusters identified | 18 |
+| Orphan zettels | 4 |
 
 ---
 
@@ -55,27 +58,27 @@
 
 | Status | Count |
 |--------|-------|
-| 🟢 Active | 2 |
-| 🔵 Frozen | 25 |
+| 🟢 Active | 3 |
+| 🔵 Frozen | 27 |
 | 📦 Archived | 5 |
-| **Total** | **32** |
+| **Total** | **35** |
 
 ### Persistent Threads
 
 | Type | Count | Description |
 |------|-------|-------------|
-| **S** (Strategic) | 6 | System architecture, meta |
-| **O** (Operational) | 7 | Client work, content |
-| **I** (Infrastructure) | 6 | Maintenance, docs |
-| **Total** | **19** | |
+| **S** (Strategic) | 8 | System architecture, meta, methodology |
+| **O** (Operational) | 10 | Client work, content, research |
+| **I** (Infrastructure) | 12 | Maintenance, docs, Docker, deployment |
+| **Total** | **35** | |
 
 ### Session Resilience
 
-Longest session: **031** (konsolidacja-jarvisa)
-- Duration: ~10 hours
-- Context compressions: 12
-- Zettels produced: 14
-- Procedures created: 4
+Longest session: **042** (github-maintenance + CDL)
+- Duration: ~12 hours
+- Context compressions: 15+
+- Zettels produced: 20+
+- Procedures created: 5+
 
 ---
 
@@ -85,21 +88,24 @@ Longest session: **031** (konsolidacja-jarvisa)
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| P-SEC-* | 7 | Security |
+| P-SEC-* | 8 | Security |
 | P-DOC-* | 4 | Documentation |
 | P-JPM-* | 5 | Project Management |
 | P-SESSION-* | 8 | Session handling |
-| P-INGEST-* | 6 | Data ingestion |
+| P-INGEST-* | 8 | Data ingestion |
 | P-HEALTH-* | 3 | Health domain |
+| P-META-* | 7 | Meta-procedures (governance) |
+| P-PARALLEL-* | 5 | Federation / parallel work |
+| P-NDA-* | 3 | NDA management |
 | Other | 2+ | Miscellaneous |
 
 ### By Status
 
 | Status | Count |
 |--------|-------|
-| ✅ Approved | 28 |
-| 🧪 Testing | 5 |
-| 💡 Candidate | 2+ |
+| ✅ Approved | 38 |
+| 🧪 Testing | 8 |
+| 💡 Candidate | 4+ |
 
 ---
 
@@ -107,19 +113,19 @@ Longest session: **031** (konsolidacja-jarvisa)
 
 | Metric | Value |
 |--------|-------|
-| Current version | v4.3 |
-| Archived versions | 11 |
-| Current size | 611 lines |
-| Current size | 34.6 KB |
-| Triggers defined | 60+ |
+| Current version | v5.2 |
+| Archived versions | 14 |
+| Current size | ~750 lines |
+| Current size | ~42 KB |
+| Triggers defined | 70+ |
 | Sections | 10 |
 
 **Version history:**
 
 ```
-v1.0 ─► v1.5 ─► v2.0 ─► v2.5 ─► v3.0 ─► v3.5 ─► v4.0 ─► v4.3
+v1.0 ─► v2.0 ─► v3.0 ─► v4.0 ─► v4.3 ─► v4.8 ─► v5.0 ─► v5.2
  │       │       │       │       │       │       │       │
-Basic  Triggers  LCD   Sessions  EKA   Patterns L0-L3  C0-C3
+Basic  Triggers Sessions C0-C3  Patterns Meta-D  Ling-OS PLAN
 ```
 
 ---
@@ -128,15 +134,15 @@ Basic  Triggers  LCD   Sessions  EKA   Patterns L0-L3  C0-C3
 
 | Type | Count |
 |------|-------|
-| AI personas (jarvis-*) | 16 |
+| AI personas (jarvis-*) | 19 |
 | Human personas | 1 |
 | Meta-persona (jarvis-core) | 1 |
-| **Total** | **18** |
+| **Total** | **21** |
 
 Persona statuses:
-- ✅ Confirmed: 5
-- 🧪 Testing: 3
-- 💡 Concept: 10
+- ✅ Confirmed: 7
+- 🧪 Testing: 5
+- 💡 Concept: 9
 
 ---
 
@@ -158,7 +164,17 @@ Persona statuses:
 | Sessions | 17 | 32 | +15 |
 | Procedures | 5 | 35+ | +30 |
 
-**Observation:** Knowledge production accelerated as methodologies matured.
+### Week 3 (30 Jan - 4 Feb)
+
+| Metric | Start | End | Growth |
+|--------|-------|-----|--------|
+| Zettels | 126 | 206 | +80 |
+| Sessions | 32 | 35 | +3 |
+| Procedures | 35 | 50+ | +15 |
+| Beaten Paths | 0 | 23+ | +23 |
+| Living Docs | 8 | 24 | +16 |
+
+**Observation:** Week 3 shows maturation — fewer new sessions but massive infrastructure build (beaten paths, living docs, CDL, Docker deployment, federation).
 
 ---
 
@@ -176,8 +192,8 @@ Persona statuses:
 ### Knowledge Accuracy
 
 Based on self-audits:
-- Claims verified as accurate: 85%
-- Claims partially accurate: 12%
+- Claims verified as accurate: 88%
+- Claims partially accurate: 9%
 - Claims needing correction: 3%
 
 ---
@@ -186,22 +202,22 @@ Based on self-audits:
 
 ### Time Investment
 
-Estimated developer time: **~100 hours** over 13 days
+Estimated developer time: **~150 hours** over 20 days
 
 Distribution:
-- Development/building: 40%
+- Development/building: 35%
 - Documentation: 30%
 - Research/exploration: 20%
-- Meta-work (sessions, personas): 10%
+- Meta-work (sessions, personas, procedures): 15%
 
 ### Storage
 
 | Component | Size |
 |-----------|------|
-| _jarvis repository | ~50 MB |
-| Zettelkasten | ~2 MB |
-| Session logs | ~1.5 MB |
-| OUT/ (generated docs) | ~15 MB |
+| _jarvis repository | ~65 MB |
+| Zettelkasten | ~3.5 MB |
+| Session logs | ~2.5 MB |
+| OUT/ (generated docs) | ~20 MB |
 
 ---
 
@@ -212,12 +228,13 @@ These metrics are self-reported from a single-user system used for daily work. T
 **Limitations:**
 - Single user (n=1)
 - Self-audited quality
-- 13 days of data
+- 20 days of data
 
 **Strengths:**
 - Real-world usage
 - Continuous tracking
 - Ecological validity
+- Accelerating growth curve validates methodology
 
 ---
 

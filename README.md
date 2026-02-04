@@ -68,18 +68,20 @@ Public release        █░░░░░░░░░  10%
 
 ## Project Scale
 
-*All metrics as of 1 February 2026 (Day 17)*
+*All metrics as of 4 February 2026 (Day 20)*
 
 | Metric | Value |
 |--------|-------|
-| Atomic knowledge (Zettels) | 170+ notes |
-| Tracked sessions | 50+ (100% compression survival) |
-| Procedures | 45+ formalized |
-| AI Personas | 15+ (7 confirmed) |
-| Persistent threads | 25+ |
-| Tokens consumed | 3.8B+ |
+| Atomic knowledge (Zettels) | 200+ notes |
+| Tracked sessions | 55+ (100% compression survival) |
+| Procedures | 50+ formalized |
+| AI Personas | 21 (including github-maintainer, remote agents) |
+| Persistent threads | 35+ |
+| Living documents | 24 |
+| Beaten paths (recipes) | 23+ |
+| Tokens consumed | 4.5B+ |
 | Cache efficiency | 92%+ |
-| Architectural concepts | 12+ |
+| Architectural concepts | 15+ |
 
 **Knowledge quality (self-audit):** 88% verified, 9% partial, 3% needs correction.
 
@@ -104,7 +106,7 @@ Every note, session, and procedure is interconnected. This is the real knowledge
 
 </details>
 
-> Each node is a real document. Each connection is a real reference. Built organically over 17 days.
+> Each node is a real document. Each connection is a real reference. Built organically over 20 days.
 
 ---
 
@@ -803,6 +805,8 @@ This project documents patterns and solutions discovered while building Jarvis:
 | [**Zettelkasten**](methodology/zettelkasten-approach.md) | RAG loses relations | Atomic notes with links |
 | [**Pattern System**](methodology/patterns-system.md) | Implicit behaviors | Systematic observation → validation |
 | [**Unified Idea-Project**](methodology/unified-idea-project.md) | One-way idea→project flow | PRINCE2 + IDEO with backflow |
+| [**Context Distribution**](methodology/context-distribution.md) | Each new agent starts from zero | Bootstrap Packages per consumer type |
+| [**Beaten Paths**](methodology/beaten-paths.md) | Repeating work without recipes | Lifecycle: SIGNAL → DRAFT → VALIDATED → MATURE |
 
 ### Architectural Patterns
 
@@ -813,6 +817,7 @@ This project documents patterns and solutions discovered while building Jarvis:
 | [**Permissions Model**](architecture/permissions-model.md) | Operators L0-L3 + confidentiality C0-C3 |
 | [**CLAUDE.md Versioning**](architecture/claude-md-versioning.md) | Version control for AI instructions |
 | [**Procedures Registry**](architecture/procedures-registry.md) | Formalized operations with Extraction Mindset |
+| [**Multi-Agent Deployment**](architecture/multi-agent-deployment.md) | Docker-based agents with role bootstrapping |
 
 ---
 
@@ -831,13 +836,16 @@ jarvis-research-showcase/
 │   ├── living-concept-document.md     # LCD Methodology
 │   ├── zettelkasten-approach.md       # Atomic knowledge
 │   ├── patterns-system.md             # Pattern discovery
-│   └── unified-idea-project.md        # Hybrid PRINCE2 + IDEO
+│   ├── unified-idea-project.md        # Hybrid PRINCE2 + IDEO
+│   ├── context-distribution.md        # Context Distribution Layer (NEW)
+│   └── beaten-paths.md               # Beaten Paths system (NEW)
 │
 ├── architecture/                      # HOW system is built
 │   ├── _index.md                      # Architecture navigator
 │   ├── permissions-model.md           # L0-L3, C0-C3
 │   ├── claude-md-versioning.md        # AI config versioning
-│   └── procedures-registry.md         # P-XXX-NNN system
+│   ├── procedures-registry.md         # P-XXX-NNN system
+│   └── multi-agent-deployment.md      # Docker agent architecture (NEW)
 │
 ├── examples/
 │   ├── sample-session.md              # Short example: Research → Documentation
@@ -869,15 +877,13 @@ Details in [LICENSE](LICENSE).
 
 | Element | Was | Is |
 |---------|-----|-----|
-| **Session Freeze** | Separate methodology | Replaced by **Total Memory** |
-| **Neurodiverse people** | Session Freeze + parking | Total Memory + parking |
-| **Metrics** | "state after 17 days" | "as of 1 February 2026, Day 17" |
-| **Foundational Concepts** | Missing from English | **Full translation** included |
-| **Knowledge Threads** | Not present | **Complete section** with diagrams |
-| **Greenfield Advantage** | Not present | **Full section** with snowball effect |
-| **PostgreSQL + pgvector** | Not mentioned | **Architecture section** added |
-| **Star Topology** | Not present | **Jarvis Remote Host** documented |
-| **Lifecycle Agents** | Not present | **Agents at every stage** added |
+| **Metrics** | Day 17, 170+ zettels | **Day 20, 200+ zettels** |
+| **Context Distribution** | Not present | **New methodology** — Bootstrap Packages per consumer |
+| **Beaten Paths** | Not present | **New methodology** — reproducible recipes lifecycle |
+| **Multi-Agent Deployment** | Not present | **New architecture** — Docker agents with role bootstrapping |
+| **AI Personas** | 15+ | **21** (including remote agents, github-maintainer) |
+| **Living Documents** | Not tracked | **24** living concept documents |
+| **Beaten Paths count** | Not tracked | **23+** recipes documented |
 
 ---
 
