@@ -76,11 +76,11 @@ Two independent layers:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                 External Secure Storage (Source of Truth)                   │
-│  operators/                                  │
-│    ├── _REGISTRY.md       ← WHO has permissions (L0-L3)      │
-│    ├── principal-config ← Principal details               │
-│    └── CONFIDENTIALITY.md ← C0-C3 definitions                │
+│           External Secure Storage (Source of Truth)           │
+│  [secrets-folder]/operators/                                  │
+│    ├── registry        ← WHO has permissions (L0-L3)         │
+│    ├── principal-config ← Principal details                   │
+│    └── levels-config   ← C0-C3 definitions                   │
 │                                                              │
 │  ⚡ AUTHORITATIVE — this is the truth                        │
 └─────────────────────────────────────────────────────────────┘
@@ -89,9 +89,9 @@ Two independent layers:
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                 Local Repo (Stub + Documentation)            │
-│  docs/central/OPERATORS/                                     │
-│    ├── _README.md         ← Level definitions (info only)    │
-│    └── _STUB.md           ← "Real registry in secure storage"      │
+│  docs/operators/                                             │
+│    ├── README           ← Level definitions (info only)      │
+│    └── STUB             ← "Real registry in secure storage"  │
 │                                                              │
 │  ⚠️ DOES NOT CONTAIN permissions — only documentation        │
 └─────────────────────────────────────────────────────────────┘
@@ -121,7 +121,7 @@ CHECK: Is secure storage available?
 └── NO → FAIL-SECURE:
          → Verify Principal environment:
            • OS profile = correct user
-           • [secrets-folder] exists
+           • Secrets folder exists
            • Project folder exists
          → If OK → limited mode
          → If NOT → NO ACCESS
@@ -158,10 +158,10 @@ CHECK: Is secure storage available?
 
 | Location | Default Level |
 |----------|---------------|
-| `Secure external storage (secrets)/` | C3 |
-| `Secure external storage (health)/` | C3 |
-| `docs/central/ZETTELKASTEN/` | C1 |
-| `docs/central/BACKLOG.md` | C1 |
+| Secure external storage (secrets) | C3 |
+| Secure external storage (health) | C3 |
+| Knowledge base (internal) | C1 |
+| Backlog (internal) | C1 |
 | Public GitHub repo | C0 (after approval) |
 
 ---
@@ -204,4 +204,4 @@ Security risks are documented internally. The model addresses container isolatio
 
 ---
 
-> **Source:** Internal zettel 202601-115 (Permissions Architecture)
+> **Source:** Internal knowledge base (Permissions Architecture)

@@ -32,39 +32,43 @@ Event-Knowledge Architecture schema designed. Test queries validated. Ready for 
 **Status:** Done | **Date:** 24 Jan 2026
 Text-based diagram generation. 20x cheaper than visual tools (~100 tokens vs ~2000).
 
+### 7. Context Alignment Mechanism
+**Status:** Done | **Date:** 02 Feb 2026
+"How I Work" — fundamental mechanism explaining how context shapes output. HOW-I-WORK.md Living Doc + 202602-017 Zettel.
+
 ---
 
 ## 🔬 Research
 
-### 7. Attention Stream Architecture
+### 8. Attention Stream Architecture
 **Status:** Research | **Priority:** Medium
 Tracking Principal's focus across terminals instead of sessions. New dimension for thread/session management.
 
-### 8. Verbalization Lab (SVI Benchmark)
+### 9. Verbalization Lab (SVI Benchmark)
 **Status:** Research | **Priority:** High
 Empirical study of verbalization effectiveness. Hypothesis: Self-Verbalized Intent increases error detection from ~60% to ~95%+.
-
-### 9. Parallel Work Model
-**Status:** Research | **Priority:** Medium
-Human thinks creatively + Jarvis executes routine tasks = synergy. Foundation for monetization value proposition.
-
-### 10. Living Concept Documents
-**Status:** Research | **Priority:** Low
-Documents that evolve with the project. Self-updating based on new knowledge.
 
 ---
 
 ## 🏗️ In Progress
 
-### 11. Research Partnerships
+### 10. Parallel Work Model — Federation MVP
+**Status:** In Progress | **Priority:** High | **Active: Session 039**
+Multi-terminal coordination via SHARED_STATE/ (JSON files). Human thinks creatively + Jarvis executes routine tasks = synergy. **Session 039:** Added §7 "Korzyści Delegacji do Agentów" — specialized agents preserve context, don't clutter main thread.
+
+### 11. Living Docs Architecture
+**Status:** In Progress | **Priority:** High | **Active: Session 039**
+17 Living Concept Documents covering all major Jarvis mechanisms. **Session 039:** Added PRINCIPLES.md (🔴 FUNDAMENTALNY), AUTONOMY.md (🔴 FUNDAMENTALNY), extended SECURITY.md (incident handling), TOTAL-MEMORY.md (checkpoint mechanism), publication tags to all docs.
+
+### 12. Research Partnerships
 **Status:** In Progress | **Priority:** High
 Exploring collaboration opportunities with AI research organizations.
 
-### 12. Public Showcase Polish
+### 13. Public Showcase Polish
 **Status:** In Progress | **Priority:** Medium
 Improving jarvis-research-showcase documentation. Metrics updates, methodology clarity.
 
-### 13. CLAUDE.md Evolution
+### 14. CLAUDE.md Evolution
 **Status:** In Progress | **Priority:** High
 Core instruction file. Currently v4.9. Continuous improvement based on usage patterns.
 
@@ -72,17 +76,25 @@ Core instruction file. Currently v4.9. Continuous improvement based on usage pat
 
 ## 📋 Backlog
 
-### 14. EKA Implementation (Supabase + MCP)
+### 15. EKA Implementation (Supabase + MCP)
 **Status:** Backlog | **Priority:** High
 Full implementation of Event-Knowledge Architecture. Supabase backend + MCP server for Claude access.
 
-### 15. Team Deployment Pilot
+### 16. Team Deployment Pilot
 **Status:** Backlog | **Priority:** Medium
 First deployment beyond solo use. Testing multi-user scenarios.
 
-### 16. Vector Embeddings for Knowledge Search
+### 17. Vector Embeddings for Knowledge Search
 **Status:** Backlog | **Priority:** Medium
 Semantic search across Zettelkasten. RAG integration for better knowledge retrieval.
+
+### 18. Showcase: Parallel Work Methodology
+**Status:** Backlog | **Priority:** Medium
+Public documentation of parallel work patterns. File: methodology/parallel-work.md
+
+### 19. Showcase: Context Alignment Methodology
+**Status:** Backlog | **Priority:** Medium
+Public documentation of context alignment mechanism. File: methodology/context-alignment.md
 
 ---
 
