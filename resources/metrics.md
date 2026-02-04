@@ -13,7 +13,7 @@
 | **Project age** | 20 days |
 | **Sessions tracked** | 55+ |
 | **Knowledge atoms (zettels)** | 206 |
-| **Procedures defined** | 50+ |
+| **Procedures defined** | 34+ |
 | **CLAUDE.md versions** | 14 |
 | **Persistent threads** | 35 |
 | **Living documents** | 24 |
@@ -88,24 +88,23 @@ Longest session: **042** (github-maintenance + CDL)
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| P-SEC-* | 8 | Security |
-| P-DOC-* | 4 | Documentation |
-| P-JPM-* | 5 | Project Management |
-| P-SESSION-* | 8 | Session handling |
-| P-INGEST-* | 8 | Data ingestion |
-| P-HEALTH-* | 3 | Health domain |
-| P-META-* | 7 | Meta-procedures (governance) |
-| P-PARALLEL-* | 5 | Federation / parallel work |
+| P-SEC-* | 4 | Security |
+| P-DOC-* | 1 | Documentation |
+| P-JPM-* | 2 | Project Management |
+| P-SESSION-* | 11 | Session handling |
+| P-INGEST-* | 3 | Data ingestion |
+| P-HEALTH-* | 1 | Health domain |
+| P-META-* | 3 | Meta-procedures (governance) |
+| P-PARALLEL-* | 4 | Federation / parallel work |
 | P-NDA-* | 3 | NDA management |
-| Other | 2+ | Miscellaneous |
 
 ### By Status
 
 | Status | Count |
 |--------|-------|
-| ✅ Approved | 38 |
-| 🧪 Testing | 8 |
-| 💡 Candidate | 4+ |
+| ✅ Approved | 26 |
+| 🧪 Testing | 4 |
+| 💡 Candidate | 2+ |
 
 ---
 
@@ -170,7 +169,7 @@ Persona statuses:
 |--------|-------|-----|--------|
 | Zettels | 126 | 206 | +80 |
 | Sessions | 32 | 35 | +3 |
-| Procedures | 35 | 50+ | +15 |
+| Procedures | 35 | 34+ | -1 (consolidated) |
 | Beaten Paths | 0 | 23+ | +23 |
 | Living Docs | 8 | 24 | +16 |
 

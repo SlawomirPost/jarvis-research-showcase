@@ -74,7 +74,7 @@ Public release        █░░░░░░░░░  10%
 |--------|-------|
 | Atomic knowledge (Zettels) | 200+ notes |
 | Tracked sessions | 55+ (100% compression survival) |
-| Procedures | 50+ formalized |
+| Procedures | 34+ formalized |
 | AI Personas | 21 (including github-maintainer, remote agents) |
 | Persistent threads | 35+ |
 | Living documents | 24 |
