@@ -2,7 +2,7 @@
 
 > Quantitative measures of the Jarvis research project
 
-**Last updated:** 4 February 2026
+**Last updated:** 8 February 2026
 
 ---
 
@@ -10,15 +10,19 @@
 
 | Metric | Value |
 |--------|-------|
-| **Project age** | 20 days |
-| **Sessions tracked** | 55+ |
-| **Knowledge atoms (zettels)** | 206 |
-| **Procedures defined** | 34+ |
-| **CLAUDE.md versions** | 14 |
-| **Persistent threads** | 35 |
-| **Living documents** | 24 |
-| **AI Personas** | 21 |
-| **Beaten paths** | 23+ |
+| **Project age** | 24 days |
+| **Sessions tracked** | 50 |
+| **Knowledge atoms (zettels)** | 222 |
+| **Procedures defined** | 43 |
+| **CLAUDE.md versions** | 16 |
+| **Persistent threads** | 37 |
+| **Living documents** | 27 |
+| **AI Personas** | 20 |
+| **Beaten paths** | 22 (11 documented + 11 signaled) |
+| **MCP integrations** | 7 |
+| **Docker stacks** | 3 |
+| **Formal decisions** | 29 (ADR format) |
+| **REWIZJA audits** | 28 |
 
 ---
 
@@ -28,9 +32,9 @@
 
 | Metric | Value |
 |--------|-------|
-| Total zettels | 206 |
-| Average confidence | 0.74 |
-| Living documents | 24 |
+| Total zettels | 222 |
+| Average confidence | 0.85 |
+| Living documents | 27 |
 | Deprecated | 3 |
 
 **Confidence distribution:**
@@ -58,19 +62,19 @@
 
 | Status | Count |
 |--------|-------|
-| 🟢 Active | 3 |
+| 🟢 Active | 5 |
 | 🔵 Frozen | 27 |
 | 📦 Archived | 5 |
-| **Total** | **35** |
+| **Total** | **37** |
 
 ### Persistent Threads
 
 | Type | Count | Description |
 |------|-------|-------------|
 | **S** (Strategic) | 8 | System architecture, meta, methodology |
-| **O** (Operational) | 10 | Client work, content, research |
-| **I** (Infrastructure) | 12 | Maintenance, docs, Docker, deployment |
-| **Total** | **35** | |
+| **O** (Operational) | 11 | Client work, content, research, GitHub |
+| **I** (Infrastructure) | 15 | Maintenance, Docker, VectorDB, security |
+| **Total** | **37** | |
 
 ### Session Resilience
 
@@ -88,22 +92,24 @@ Longest session: **042** (github-maintenance + CDL)
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| P-SEC-* | 4 | Security |
+| P-SEC-* | 9 | Security (incl. clearance elevation, RLS) |
 | P-DOC-* | 1 | Documentation |
 | P-JPM-* | 2 | Project Management |
-| P-SESSION-* | 11 | Session handling |
-| P-INGEST-* | 3 | Data ingestion |
+| P-SESSION-* | 12 | Session handling |
+| P-INGEST-* | 4 | Data ingestion |
 | P-HEALTH-* | 1 | Health domain |
-| P-META-* | 3 | Meta-procedures (governance) |
+| P-META-* | 5 | Meta-procedures (governance) |
 | P-PARALLEL-* | 4 | Federation / parallel work |
 | P-NDA-* | 3 | NDA management |
+| P-RES-* | 1 | Resource management (ITIL v4) |
+| P-REVIEW-* | 1 | REWIZJA (strategic audit) |
 
 ### By Status
 
 | Status | Count |
 |--------|-------|
-| ✅ Approved | 26 |
-| 🧪 Testing | 4 |
+| ✅ Approved | 36 |
+| 🧪 Testing | 5 |
 | 💡 Candidate | 2+ |
 
 ---
@@ -112,19 +118,20 @@ Longest session: **042** (github-maintenance + CDL)
 
 | Metric | Value |
 |--------|-------|
-| Current version | v5.2 |
-| Archived versions | 14 |
-| Current size | ~750 lines |
-| Current size | ~42 KB |
-| Triggers defined | 70+ |
-| Sections | 10 |
+| Current version | v6.0 SLIM |
+| Archived versions | 16 |
+| Current size | ~350 lines |
+| Dispatch moved to | _MAP.md (~750 lines) |
+| Triggers defined | 80+ |
+| Sections | 8 |
 
 **Version history:**
 
 ```
-v1.0 ─► v2.0 ─► v3.0 ─► v4.0 ─► v4.3 ─► v4.8 ─► v5.0 ─► v5.2
- │       │       │       │       │       │       │       │
-Basic  Triggers Sessions C0-C3  Patterns Meta-D  Ling-OS PLAN
+v1.0 ─► v2.0 ─► v3.0 ─► v4.0 ─► v4.3 ─► v4.8 ─► v5.0 ─► v5.2 ─► v6.0
+ │       │       │       │       │       │       │       │       │
+Basic  Triggers Sessions C0-C3  Patterns Meta-D  Ling-OS PLAN   SLIM
+                                                               (dispatch→_MAP)
 ```
 
 ---
@@ -133,15 +140,15 @@ Basic  Triggers Sessions C0-C3  Patterns Meta-D  Ling-OS PLAN
 
 | Type | Count |
 |------|-------|
-| AI personas (jarvis-*) | 19 |
+| AI personas (jarvis-*) | 18 |
 | Human personas | 1 |
 | Meta-persona (jarvis-core) | 1 |
-| **Total** | **21** |
+| **Total** | **20** |
 
 Persona statuses:
 - ✅ Confirmed: 7
 - 🧪 Testing: 5
-- 💡 Concept: 9
+- 💡 Concept: 8
 
 ---
 
@@ -175,6 +182,22 @@ Persona statuses:
 
 **Observation:** Week 3 shows maturation — fewer new sessions but massive infrastructure build (beaten paths, living docs, CDL, Docker deployment, federation).
 
+### Week 4 (5-8 Feb)
+
+| Metric | Start | End | Growth |
+|--------|-------|-----|--------|
+| Zettels | 206 | 222 | +16 |
+| Sessions | 35 | 37 | +2 (5 parallel sessions at peak) |
+| Procedures | 34 | 43 | +9 (incl. normalization pass) |
+| Beaten Paths | 23 | 22 | -1 (recounted: 11 documented + 11 signaled) |
+| Living Docs | 24 | 27 | +3 |
+| Decisions (ADR) | 17 | 29 | +12 (infrastructure, security, resources) |
+| Docker stacks | 1 | 3 | +2 (jarvis-vectordb, claude-code) |
+| REWIZJA audits | 24 | 28 | +4 (incl. security 5.9/10, Prince2 4.3/10) |
+| Security model | C0-C3 | C0-C6 | 7-level Bell-LaPadula + PostgreSQL RLS |
+
+**Observation:** Week 4 = highest-velocity week. VectorDB went from concept to PROD (16K+ messages, semantic search). Security architecture implemented (DEC-060/061). CLAUDE.md v6.0 SLIM reduced from 1400 to 350 lines by extracting dispatch to _MAP.md. 5 parallel sessions ran simultaneously for the first time.
+
 ---
 
 ## Quality Indicators
@@ -201,7 +224,7 @@ Based on self-audits:
 
 ### Time Investment
 
-Estimated developer time: **~150 hours** over 20 days
+Estimated developer time: **~180 hours** over 24 days
 
 Distribution:
 - Development/building: 35%
@@ -226,8 +249,8 @@ These metrics are self-reported from a single-user system used for daily work. T
 
 **Limitations:**
 - Single user (n=1)
-- Self-audited quality
-- 20 days of data
+- Self-audited quality (supplemented by 28 formal REWIZJA audits)
+- 24 days of data
 
 **Strengths:**
 - Real-world usage

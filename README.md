@@ -68,22 +68,24 @@ Public release        █░░░░░░░░░  10%
 
 ## Project Scale
 
-*All metrics as of 4 February 2026 (Day 20)*
+*All metrics as of 8 February 2026 (Day 24)*
 
 | Metric | Value |
 |--------|-------|
-| Atomic knowledge (Zettels) | 200+ notes |
-| Tracked sessions | 55+ (100% compression survival) |
-| Procedures | 34+ formalized |
-| AI Personas | 21 (including github-maintainer, remote agents) |
-| Persistent threads | 35+ |
-| Living documents | 24 |
-| Beaten paths (recipes) | 23+ |
-| Tokens consumed | 4.5B+ |
-| Cache efficiency | 92%+ |
-| Architectural concepts | 15+ |
+| Atomic knowledge (Zettels) | 222 notes |
+| Tracked sessions | 50 (100% compression survival) |
+| Procedures | 43 formalized (9 categories) |
+| AI Personas | 20 (including github-maintainer, remote agents) |
+| Persistent threads | 37 |
+| Living documents | 27 |
+| Beaten paths (recipes) | 22 (11 documented + 11 signaled) |
+| Formal decisions (ADR) | 29 |
+| REWIZJA audits | 28 |
+| Docker stacks | 3 |
+| MCP integrations | 7 |
+| Security model | 7-level Bell-LaPadula (C0-C6) |
 
-**Knowledge quality (self-audit):** 88% verified, 9% partial, 3% needs correction.
+**Knowledge quality:** 88% verified, 9% partial, 3% needs correction. Supplemented by 28 formal REWIZJA audits (275+ findings, 27 methodology discoveries).
 
 → [Full metrics](resources/metrics.md)
 
@@ -106,7 +108,7 @@ Every note, session, and procedure is interconnected. This is the real knowledge
 
 </details>
 
-> Each node is a real document. Each connection is a real reference. Built organically over 20 days.
+> Each node is a real document. Each connection is a real reference. Built organically over 24 days.
 
 ---
 
